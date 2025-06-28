@@ -12,7 +12,7 @@ class Order(models.Model):
         return sum(item.total_cost() for item in self.items.all())
 
     def __str__(self):
-        return f'{self.user.username} - {self.status}'
+        return f'{self.user.username} -- {self.status}'
 
 class Product(models.Model):
     name = models.CharField(max_length=100)

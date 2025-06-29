@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'store/style.css' %}">
+    <title>E-Commerce</title>
+</head>
+<body>
+    <main class="main-content">
+        <header>
+            <form class="top-bar" role="search" method="get" action="{% url 'catalog' %}">
+                <input class="top-input" name="q" type="search" placeholder="Cerca prodotti…">
+                <button class="top-button" type="submit">Cerca</button>
+            </form>
+        </header>
+        <div class="grid-layout">
+            {% block content %} {% endblock %}
+        </div>
+    </main>
+</body>
+</html>

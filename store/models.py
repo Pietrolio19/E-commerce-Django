@@ -20,6 +20,7 @@ class Product(models.Model):
     available = models.BooleanField(default=True)
     stock = models.PositiveIntegerField()
     category = models.ForeignKey("Category", on_delete=models.CASCADE)
+    description = models.TextField()
 
     def set_available(self):
         if self.stock == 0:

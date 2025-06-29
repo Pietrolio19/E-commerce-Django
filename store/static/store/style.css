@@ -1,0 +1,48 @@
+.main-content {
+    max-width: 100%;
+}
+
+.top-bar {
+    height: 32px;
+    border-bottom: black solid 1px;
+}
+
+.top-input {
+    width: 90%;
+}
+
+.top-button {
+    width: 4%;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 40vw);
+    gap: 16px;
+}
+
+.grid-element h2, h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.pagination{
+  display:flex;
+  list-style:none;
+  gap:.5rem;
+  padding:0;
+  justify-content:center;
+}
+.pagination .page-item a{
+  display:block;
+  padding:.5rem .75rem;
+  border:1px solid #ccc;
+  border-radius:.25rem;
+  text-decoration:none;
+  color:#333;
+}
+.pagination .page-item.active a{
+  background:#333;
+  color:#fff;
+  pointer-events:none;
+}

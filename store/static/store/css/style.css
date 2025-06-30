@@ -1,0 +1,83 @@
+.main-content {
+    max-width: 1500px;
+}
+
+.top-bar {
+    align-content: space-evenly;
+    height: 32px;
+    border-bottom: black solid 1px;
+}
+
+.cat-btn {
+    display: inline-block;
+    height: 28px;
+}
+
+.top-input {
+    display: inline-block;
+    width: 88%;
+    height: 28px;
+}
+
+.top-button {
+    display: inline-block;
+    width: 4%;
+    height: 28px;
+}
+
+.wrapper{
+    max-width: 1350px;
+    margin-inline: auto;
+    padding-inline: 16px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    justify-content: center;
+}
+
+.grid-element h3, h4, img:hover{
+    cursor: pointer;
+}
+
+.grid-element h3 {
+    padding: 0;
+    margin: 0;
+    max-width: 300px;
+}
+
+.grid-element h5 {
+    padding: 0;
+    margin: 0 0 30px 0;
+    color: dimgray;
+    max-width: 300px;
+}
+
+.product-img {
+    margin-top: 10px;
+}
+
+.pagination{
+  display:flex;
+  list-style:none;
+  gap:.5rem;
+  padding:0;
+  justify-content: center;
+}
+
+.pagination .page-item a{
+  display:block;
+  padding:.5rem .75rem;
+  border:1px solid #ccc;
+  border-radius:.25rem;
+  text-decoration:none;
+  color:#333;
+}
+
+.pagination .page-item.active a{
+  background:#333;
+  color:#fff;
+  pointer-events:none;
+}

@@ -1,3 +1,5 @@
+from unittest import defaultTestLoader
+
 from django.db import models
 from PPM_project import settings
 

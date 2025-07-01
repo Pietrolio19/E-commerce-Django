@@ -8,7 +8,9 @@
                 <div class="grid-element">
                     <img class="product-img" src="{% static "store/img/product_img.jpeg" %}" alt="product_img">
                     <h3>{{ product.name }}</h3>
+                    <h5 class="price">{{ product.price }} &#8364;</h5>
                     <h5>{{ product.description }}</h5>
+                    <a href="{% url 'add_to_cart' product.id %}" class="add-to-cart">Aggiungi articolo al carrello</a>
                 </div>
             {% empty %}
                 <p>Nessun prodotto disponibile.</p>

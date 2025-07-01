@@ -1,12 +1,11 @@
 from unittest import defaultTestLoader
-
 from django.db import models
 from PPM_project import settings
 
 
 # Create your models here.
 class Order(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
     status = models.CharField(max_length=20, default='in_progress')
 
@@ -21,7 +20,8 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     available = models.BooleanField(default=True)
     stock = models.PositiveIntegerField()
-    category = models.ForeignKey("Category", on_delete=models.CASCADE)
+    category = models.ForeignKey("Category", on_delete=models.CASCADE, related_name="products")
+    related_category = models.ManyToManyField("Category", blank=True, related_name="_related_products")
     description = models.TextField()
 
     def set_available(self):

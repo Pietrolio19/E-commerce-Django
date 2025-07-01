@@ -1,0 +1,15 @@
+{% extends "store/base.html" %}
+{% load static %}
+
+{% block content %}
+    {% if order and order.items.exists %}
+        {% for order_item in order.items.all %}
+            <h3>{{ order_item.product.name }}</h3>
+            <h3>{{ order_item.product.price }} &#8364;</h3>
+            <h3>{{ order_item.quantity }}</h3>
+            <a href="{% url 'remove_from_cart' order_item.id %}"><img src="{% static "store/img/delete_16dp_1F1F1F_FILL0_wght400_GRAD0_opsz20.svg" %}"></a>
+        {% endfor %}
+    {% else %}
+        <h3>Il carrello è vuoto</h3>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "store/base.html" %}
+
+{% load static %}
+<link rel="stylesheet" href="{% static "store/css/style.css" %}">
+
+{% block content %}
+    <h1 class="sing-up-text">Registrati</h1>
+    <form method="post" class="sign-up-wrapper">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Crea un account</button>
+    </form>
+    <p>Hai già un account?</p>
+    <a href="{% url 'accounts:login' %}"> Log In </a>
+{% endblock %}

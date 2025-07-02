@@ -2,6 +2,18 @@
 {% load static %}
 
 {% block content %}
+    {% if user.is_authenticated %}
+        <div class="welcome">
+            <h1>Benvenuto {{ user.username }}</h1>
+            <form method="post" action="{% url 'accounts:logout' %}">
+                {% csrf_token %}
+                <button type="submit" class="logout-btn">Logout</button>
+            </form>
+        </div>
+    {% else %}
+        <h1>Benvenuto ospite</h1>
+    {% endif %}
+
     <div class="wrapper">
         <div class="grid-layout">
             {% for product in page_obj %}

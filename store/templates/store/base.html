@@ -22,8 +22,13 @@
             </select>
             <label for="usr-input"></label>
             <input id="usr-input" name="q" class="top-input" type="search" placeholder="Cerca prodotti…" value="{{ q }}">
-            <button class="top-button" type="submit">Cerca</button>
-            <a href="{% url 'cart_view' %}" class="cart-button"><img src="{% static "store/img/shopping_cart_16dp_1F1F1F_FILL0_wght400_GRAD0_opsz20.svg" %}" alt="cart"></a>
+            <button class="top-btn" type="submit">Cerca</button>
+            <a href="{% url 'cart_view' %}" class="cart-btn">
+                <img src="{% static "store/img/shopping_cart_16dp_1F1F1F_FILL0_wght400_GRAD0_opsz20.svg" %}" alt="cart">
+            </a>
+            <a href="{% url 'accounts:signup' %}" class="user-btn">
+                <img src="{% static "accounts/img/face_16dp_1F1F1F_FILL0_wght400_GRAD0_opsz20.svg" %}" alt="user">
+            </a>
         </form>
     </header>
     <div>

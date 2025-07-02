@@ -8,6 +8,7 @@ from .models import *
 
 # Create your views here.
 def catalog(request):
+    user = request.user
     q = request.GET.get('q', '').strip()
     cat_id = request.GET.get('cat', '')
 
@@ -25,6 +26,7 @@ def catalog(request):
         'q': q,
         'cat': cat_id,
         'categories': Category.objects.all(),
+        'user': user,
     }
 
     return render(request, "store/catalog_and_search.html",context)

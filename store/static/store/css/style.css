@@ -30,7 +30,9 @@
     vertical-align: middle;
 }
 
-.cart-button {
+.cart-btn,
+.user-btn {
+    display: inline-block;
     height: 28px;
     background-color: white;
     border: none;
@@ -39,6 +41,17 @@
 }
 
 /* template catalog */
+
+
+.welcome {
+    display: flex;
+    width: 100%;
+}
+
+.logout-btn {
+    display: inline-block;
+    align-self: flex-end;
+}
 
 .wrapper{
     max-width: 1350px;

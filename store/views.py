@@ -2,6 +2,8 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse
 from django.core.paginator import Paginator
 from django.db.models import Q
+
+from accounts.models import CustomUser
 from .models import *
 
 # Create your views here.
@@ -53,3 +55,12 @@ def remove_from_cart(request, product_id):
     item = get_object_or_404(OrderItem, pk=product_id, order__user=user_ref, order__status="in_progress")
     item.delete()
     return redirect("cart_view")
+
+def checkout(request):
+    user_filter = request.user if request.user.is_authenticated else None
+    order = Order.objects.filter(user=user_filter, status="in_progress").prefetch_related("items__product").first()
+    addresses = CustomUser.objects.filter(pk=request.user.pk).values_list("address", flat=True)
+    return render(request, "store/checkout.html", {'order': order})
+
+def payment(request):
+    return render(request, "store/payment.html")

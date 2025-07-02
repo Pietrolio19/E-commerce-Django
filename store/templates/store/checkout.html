@@ -1,0 +1,35 @@
+{% extends "store/base.html" %}
+{% load static %}
+
+{% block content %}
+    <h1 class="checkout-title">Checkout</h1>
+    <div class="checkout-resume">
+        <div class="checkout-text-column">
+            <h2>Totale da Pagare: {{ order.total_order_cost }} &#8364;</h2>
+            <div>
+                <label for=payment-method>Scegli Metodo di Pagamento:</label>
+                <select id=payment-method>
+                    <option value="">Scegli un metodo di pagamento</option>
+                    <option>Carta di Credito</option>
+                    <option>Bonifico Bancario</option>
+                    <option>PayPal</option>
+                    <option>Satispay</option>
+                </select>
+            </div>
+            <div class="address-select-wrapper">
+                <label for="user-address">Seleziona un indirizzo per la spedizione:</label>
+                <select id="user-address">
+                    <option>Seleziona un indirizzo</option>
+                    {% for a in addresses.items.all %}
+                        <option>a</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+        <div class="checkout-anchor-column">
+            <a href="{% url 'cart_view' %}" class="back-to-cart">Rivedi il carrello</a>
+            <a href="{% url 'payment' %}" class="payment-btn">Paga</a>
+        </div>
+    </div>
+
+{% endblock %}

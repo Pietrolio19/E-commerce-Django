@@ -1,8 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from django.http import HttpResponse
 from django.core.paginator import Paginator
 from django.db.models import Q
-
+from django.contrib import messages
 from accounts.models import CustomUser
 from .models import *
 
@@ -34,7 +33,8 @@ def catalog(request):
 def cart_view(request):
     user_filter = request.user if request.user.is_authenticated else None
     order = Order.objects.filter(user=user_filter, status="in_progress").prefetch_related("items__product").first()
-    return render(request, "store/cart.html", {'order': order})
+    categories = Category.objects.all()
+    return render(request, "store/cart.html", {'order': order, 'categories': categories})
 
 def add_to_cart(request, product_id, qty=1):
     product = get_object_or_404(Product, pk=product_id)
@@ -50,7 +50,7 @@ def add_to_cart(request, product_id, qty=1):
         item.quantity += qty
         item.save()
 
-    return redirect("cart_view")
+    return redirect("catalog")
 
 def remove_from_cart(request, product_id):
     user_ref = request.user if request.user.is_authenticated else None
@@ -62,7 +62,11 @@ def checkout(request):
     user_filter = request.user if request.user.is_authenticated else None
     order = Order.objects.filter(user=user_filter, status="in_progress").prefetch_related("items__product").first()
     addresses = CustomUser.objects.filter(pk=request.user.pk).values_list("address", flat=True)
-    return render(request, "store/checkout.html", {'order': order})
+    categories = Category.objects.all()
+    return render(request, "store/checkout.html", {'order': order, 'addresses': addresses, 'categories': categories})
 
 def payment(request):
+    current_order = get_object_or_404(Order, user=request.user, status="in_progress")
+    current_order.status = "completed"
+    current_order.save()
     return render(request, "store/payment.html")

@@ -8,8 +8,9 @@
 </head>
 <body>
 <main class="main-content">
-    <header>
+    <header class="form-wrapper">
         <form class="top-bar" role="search" method="get" action="{% url 'catalog' %}">
+            <a href="{% url 'catalog' %}" class="btn-style base-form">Home</a>
             <label for="cat"></label>
             <select id="cat" name="cat" class="cat-btn">
                 <option value="">Tutte</option>
@@ -21,14 +22,24 @@
                 {% endfor %}
             </select>
             <label for="usr-input"></label>
-            <input id="usr-input" name="q" class="top-input" type="search" placeholder="Cerca prodotti…" value="{{ q }}">
+            <input id="usr-input" name="q" class="top-input" type="search" placeholder="Cerca prodotti…"
+                   value="{{ q }}">
             <button class="top-btn" type="submit">Cerca</button>
             <a href="{% url 'cart_view' %}" class="cart-btn">
-                <img src="{% static "store/img/shopping_cart_16dp_1F1F1F_FILL0_wght400_GRAD0_opsz20.svg" %}" alt="cart">
+                <img src="{% static "store/img/shopping_cart_16dp_1F1F1F_FILL0_wght400_GRAD0_opsz20.svg" %}"
+                     alt="cart">
             </a>
-            <a href="{% url 'accounts:signup' %}" class="user-btn">
-                <img src="{% static "accounts/img/face_16dp_1F1F1F_FILL0_wght400_GRAD0_opsz20.svg" %}" alt="user">
-            </a>
+            {% if user.is_authenticated %}
+                <a href="{% url 'accounts:profile' %}" class="user-btn">
+                    <img src="{% static "accounts/img/face_16dp_1F1F1F_FILL0_wght400_GRAD0_opsz20.svg" %}"
+                         alt="user">
+                </a>
+            {% else %}
+                <a href="{% url 'accounts:signup' %}" class="user-btn">
+                    <img src="{% static "accounts/img/face_16dp_1F1F1F_FILL0_wght400_GRAD0_opsz20.svg" %}"
+                         alt="user">
+                </a>
+            {% endif %}
         </form>
     </header>
     <div>

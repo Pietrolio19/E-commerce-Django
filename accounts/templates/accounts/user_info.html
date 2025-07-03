@@ -1,0 +1,27 @@
+{% extends 'store/base.html' %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static "store/css/style.css" %}">
+
+{% block content %}
+    <h1> Ciao {{ user_obj.name }}</h1>
+    <h2> Le tue informazioni:</h2>
+    <h3>Nome e Cognome: {{ user_obj.name }} {{ user_obj.surname }}</h3>
+    <h3> Username: {{ user_obj.username }}</h3>
+    <h3>Dati di Residenza: {{ user_obj.address }}, {{ user_obj.city }}, {{ user_obj.CAP }}, {{ user_obj.state }}</h3>
+    {% if orders %}
+        <h2>Ecco i tuoi ordini:</h2>
+        {% for o in orders %}
+            <h3>{{ o }}</h3>
+            <h4>Contenuto dell'ordine:</h4>
+            <ul>
+                {% for item in o.items.all %}
+                    <li>{{ item.product.name }} - {{ item.quantity }} pezzo - {{ item.total_cost }} &#8364;</li>
+                {% endfor %}
+            </ul>
+            <h3>Totale: {{ o.total_order_cost }} &#8364;</h3>
+        {% endfor %}
+    {% else %}
+        <h3>Quando effettuerai un ordine comparirà qua sotto</h3>
+    {% endif %}
+{% endblock %}

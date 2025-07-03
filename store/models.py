@@ -1,3 +1,4 @@
+from django.utils import timezone
 from unittest import defaultTestLoader
 from django.db import models
 from PPM_project import settings
@@ -8,12 +9,27 @@ class Order(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
     status = models.CharField(max_length=20, default='in_progress')
+    completed_at = models.DateTimeField(null=True, blank=True)
 
     def total_order_cost(self):
         return sum(item.total_cost() for item in self.items.all())
 
+    def save(self, *args, **kwargs):
+        if self.status == 'completed' and self.completed_at is None:
+            self.completed_at = timezone.now()
+
+        super().save(*args, **kwargs)
+
+
     def __str__(self):
-        return f'{self.user.username} -- {self.status}'
+        if self.status == 'completed':
+            order_state = 'completato'
+            info = f'Ordine effettuato da {self.user} in data: {self.completed_at:%Y-%m-%d %H:%M}, in stato: {order_state}'
+        else:
+            order_state = 'in elaborazione'
+            info = f'Ordine creato da {self.user} in data: {self.created_at:%Y-%m-%d %H:%M}, stato: {order_state}'
+        return info
+
 
 class Product(models.Model):
     name = models.CharField(max_length=100)

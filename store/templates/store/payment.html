@@ -1,5 +1,7 @@
 {% extends "store/base.html" %}
 
 {% block content %}
-<h1>Pagamento Riuscito!</h1>
+    <h1>Pagamento Riuscito!</h1>
+    <a href="{% url 'catalog' %}" class="btn-style">Ritorna alla home</a>
+    <a href="{% url 'accounts:profile' %}" class="btn-style">Visualizza i miei ordini</a>
 {% endblock %}

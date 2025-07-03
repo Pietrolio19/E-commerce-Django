@@ -2,19 +2,26 @@
 {% load static %}
 
 {% block content %}
+    <h1>Il tuo carrello</h1>
     {% if order and order.items.exists %}
         <div class="cart-wrapper">
-
             <div class="cart-items">
+                <div class="cart-article">
+                    <h3 class="product-name info">Nome Prodotto</h3>
+                    <h3 class="product-price">Prezzo</h3>
+                    <h3 class="product-quantity">Quantità</h3>
+                    <h3>Rimuovi</h3>
+                </div>
                 {% for order_item in order.items.all %}
                     <div class="cart-article">
-                    <h3 class="product-name">{{ order_item.product.name }}</h3>
-                    <h3 class="product-price">{{ order_item.product.price }} &#8364;</h3>
-                    <h3 class="product-quantity">{{ order_item.quantity }}</h3>
-                    <a href="{% url 'remove_from_cart' order_item.id %}">
-                        <img class="cart-trash-bin"
-                             src="{% static "store/img/delete_16dp_1F1F1F_FILL0_wght400_GRAD0_opsz20.svg" %}" alt="delete">
-                    </a>
+                        <h3 class="product-name">{{ order_item.product.name }}</h3>
+                        <h3 class="product-price">{{ order_item.product.price }} &#8364;</h3>
+                        <h3 class="product-quantity">{{ order_item.quantity }}</h3>
+                        <a href="{% url 'remove_from_cart' order_item.id %}">
+                            <img class="cart-trash-bin"
+                                 src="{% static "store/img/delete_16dp_1F1F1F_FILL0_wght400_GRAD0_opsz20.svg" %}"
+                                 alt="delete">
+                        </a>
                     </div>
                 {% endfor %}
             </div>
@@ -22,12 +29,12 @@
             <div class="checkout">
                 <h3>Totale:</h3>
                 <h3>{{ order.total_order_cost }} &#8364;</h3>
-                <a href="{% url 'checkout' %}" class="checkout-btn">Procedi al Checkout</a>
+                <a href="{% url 'checkout' %}" class="btn-style">Procedi al Checkout</a>
             </div>
         </div>
 
     {% else %}
-        <h3>Il carrello è vuoto</h3>
+        <h3>Il carrello è vuoto, aggiungi degli articoli!</h3>
     {% endif %}
 
 {% endblock %}

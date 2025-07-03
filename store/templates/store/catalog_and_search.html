@@ -4,14 +4,21 @@
 {% block content %}
     {% if user.is_authenticated %}
         <div class="welcome">
-            <h1>Benvenuto {{ user.username }}</h1>
+            <h1>Ciao {{ user.username }}</h1>
             <form method="post" action="{% url 'accounts:logout' %}">
                 {% csrf_token %}
-                <button type="submit" class="logout-btn">Logout</button>
+                <button type="submit" class="btn-style">Logout</button>
             </form>
         </div>
     {% else %}
         <h1>Benvenuto ospite</h1>
+        <div class="unlogged-user">
+            <p>Crea un nuovo account oppure effettua il login per iniziare ad acquistare!</p>
+            <div>
+                <a href="{% url 'accounts:signup' %}" class="btn-style signup-btn">Sing Up</a>
+                <a href="{% url 'accounts:login' %}" class="btn-style login-btn">Login</a>
+            </div>
+        </div>
     {% endif %}
 
     <div class="wrapper">
@@ -22,7 +29,7 @@
                     <h3>{{ product.name }}</h3>
                     <h5 class="price">{{ product.price }} &#8364;</h5>
                     <h5 class="product-desc">{{ product.description }}</h5>
-                    <a href="{% url 'add_to_cart' product.id %}" class="add-to-cart">Aggiungi articolo al carrello</a>
+                    <a href="{% url 'add_to_cart' product.id %}" class="btn-style">Aggiungi articolo al carrello</a>
                 </div>
             {% empty %}
                 <p>Nessun prodotto disponibile.</p>

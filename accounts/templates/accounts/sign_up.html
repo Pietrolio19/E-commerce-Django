@@ -8,8 +8,10 @@
     <form method="post" class="sign-up-wrapper">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit">Crea un account</button>
+        <button type="submit" class="btn-style">Crea un account</button>
     </form>
-    <p>Hai già un account?</p>
-    <a href="{% url 'accounts:login' %}"> Log In </a>
+    <div class="unlogged-user">
+        <p>Hai già un account?</p>
+        <a href="{% url 'accounts:login' %}" class="btn-style"> Log In </a>
+    </div>
 {% endblock %}

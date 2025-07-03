@@ -5,8 +5,21 @@
 
 /*template base */
 
+.base-form {
+    padding: 0;
+    font-size: 12px;
+}
+
+.form-wrapper {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+}
+
 .top-bar {
-    height: 32px;
+    padding: 4px 12px;
     border-bottom: black solid 1px;
 }
 
@@ -14,26 +27,46 @@
     display: inline-block;
     height: 28px;
     vertical-align: middle;
+    border-radius: 20px;
+    border: 1px solid lightsalmon;
 }
 
 .top-input {
     display: inline-block;
-    width: 80%;
+    width: 78%;
     height: 28px;
     vertical-align: middle;
+    border-radius: 20px;
+    border: 1px solid lightsalmon;
 }
 
-.top-button {
+.top-btn {
     display: inline-block;
     width: 4%;
     height: 28px;
     vertical-align: middle;
+    background-color: brown;
+    border-radius: 10px;
+    border: dimgray solid 1px;
+    padding: 5px;
+    font-weight: bold;
+    transition: background .2s ease-in-out;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.top-btn:hover,
+.top-btn:focus {
+    background-color: sandybrown;
+    color: white;
+    outline: none;
+    cursor: pointer;
 }
 
 .cart-btn,
 .user-btn {
     display: inline-block;
-    height: 28px;
+    height: 22px;
     background-color: white;
     border: none;
     margin: 0 0 0 20px;
@@ -42,14 +75,35 @@
 
 /* template catalog */
 
-
 .welcome {
     display: flex;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.logout-btn {
-    display: inline-block;
+.welcome h1 {
+    flex: 5 1 0;
+}
+
+.welcome form {
+    margin: 0;
+}
+
+.unlogged-user {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.unlogged-user h1 {
+    flex: 5 1 0;
+}
+
+.signup-btn,
+.login-btn {
+    margin-left: 5px;
     align-self: flex-end;
 }
 
@@ -63,12 +117,14 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 16px;
-    justify-content: center;
 }
 
 .grid-element {
     margin-bottom: 30px;
+    border: 1px solid lightsalmon;
+    padding: 0 0 10px 11px;
 }
+
 
 .product-img {
     margin-top: 10px;
@@ -86,15 +142,19 @@
 
 .grid-element h5 {
     padding: 0;
-    margin: 0 0 5px 0;
     color: dimgray;
     max-width: 300px;
+}
+
+.price {
+    margin: 0 0 5px 0;
 }
 
 .product-desc {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin: 0 0 10px 0;
 }
 
 .price {
@@ -103,10 +163,7 @@
     margin-bottom: 3px;
 }
 
-.add-to-cart,
-.checkout-btn,
-.back-to-cart,
-.payment-btn {
+.btn-style {
     background-color: brown;
     border-radius: 10px;
     border: dimgray solid 1px;
@@ -117,14 +174,8 @@
     color: antiquewhite;
 }
 
-.add-to-cart:hover,
-.add-to-cart:focus,
-.checkout-btn:hover,
-.checkout-btn:focus,
-.back-to-cart:hover,
-.back-to-cart:focus,
-.payment-btn:hover,
-.payment-btn:focus {
+.btn-style:hover,
+.btn-style:focus {
     background-color: sandybrown;
     color: white;
     outline: none;
@@ -172,7 +223,7 @@
     align-items: center;
     gap: 24px;
     padding: 12px 0;
-    border-bottom: 3px solid gray;
+    border-bottom: 3px solid lightsalmon;
     height: 50px;
     vertical-align: center;
 }
@@ -184,24 +235,32 @@
 }
 
 .product-name {
-    flex: 1;
+    flex: 2.5 1 0;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
+.info {
+    flex: 2.75 1 0;
+}
+
 .product-price {
-    flex: 2;
+    flex: 1;
 }
 
 .product-quantity {
-    flex: 3;
+    flex: 1;
 }
 
 .cart-trash-bin {
-    flex: 4;
+    flex: 1;
     height: 30px;
     width: 30px;
+}
+
+.cart-trash-bin h3 {
+    flex: 0.5;
 }
 
 .checkout {

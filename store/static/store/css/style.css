@@ -320,3 +320,90 @@
 .address-select-wrapper {
     margin-top: 10px;
 }
+
+/* manager template */
+
+.manager-wrapper {
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.manager-grid {
+    display: grid;
+    grid-template-columns: repeat(3 , minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.manager-order-grid {
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+}
+
+.manager-wrapper h1 {
+    padding: 0;
+    margin: 3px ;
+}
+
+.manager-view-item {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.manager-view-item:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.manager-view-item h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.manager-order-text {
+    text-align: left;
+    justify-content: space-between;
+}
+
+.delete-update-wrapper {
+    display: flex;
+    margin-left: 3px;
+}
+
+.delete-update {
+    margin-bottom: 10px;
+}
+
+.manager-add {
+    background-color: #2ecc71;
+    font-size: 14px;
+}
+
+.manager-add:hover {
+    background-color: darkgreen;
+}
+
+.manager-update {
+    background-color: #4a90e2;
+    margin-left: 2px;
+    font-size: 14px;
+}
+
+.manager-update:hover {
+    background-color: midnightblue;
+}
+
+.manager-delete {
+    background-color: #e74c3c;
+    font-size: 14px;
+}
+
+.manager-delete:hover {
+    background-color: darkred;
+}

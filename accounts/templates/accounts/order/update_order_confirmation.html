@@ -1,0 +1,10 @@
+{% extends 'accounts/manager_control_panel.html' %}
+
+{% block content %}
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn-style delete-update" type="submit">Conferma la modifica</button>
+    </form>
+    <a href="{% url 'accounts:manager' %}" class="btn-style">Annulla</a>
+{% endblock %}

@@ -1,10 +1,64 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Pannello di Controllo</title>
+    <link rel="stylesheet" href="{% static 'store/css/style.css' %}">
 </head>
 <body>
+{% block content %}
+    <div class="manager-wrapper">
+        <h1>Ordini:</h1>
+        <p>Utilizza i pulsanti "Elimina" e "Modifica" per eliminare o modificare un ordine.</p>
+        <div class="manager-grid manager-order-grid">
+            {% for o in orders %}
+                <div class="manager-view-item manager-order-text">
+                    <h3>{{ o }}</h3>
+                    <div class="delete-update-wrapper">
+                        <a href="{% url 'accounts:deleteOrder' o.id %}" class="btn-style manager-delete">Elimina</a>
+                        <a href="{% url 'accounts:updateOrder' o.id %}" class="btn-style manager-update">Modifica</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
 
+    <div class="manager-wrapper">
+        <h1>Categorie:</h1>
+        <p>Utilizza "Aggiungi una categoria" per creare una categoria o "Elimina" e "Modifica" per cancellare o
+            modificarne una.</p>
+        <a href="{% url 'accounts:createCategory' %}" class="btn-style manager-add">Aggiungi una categoria</a>
+        <div class="manager-grid">
+            {% for c in categories %}
+                <div class="manager-view-item">
+                    <h3>{{ c }}</h3>
+                    <div class="delete-update-wrapper">
+                        <a href="{% url 'accounts:deleteCategory' c.id %}" class="btn-style manager-delete">Elimina</a>
+                        <a href="{% url 'accounts:updateCategory' c.id %}" class="btn-style manager-update">Modifica</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="manager-wrapper">
+        <h1>Prodotti:</h1>
+        <p>Utilizza "Aggiungi un prodotto" per creare un prodotto o "Elimina" e "Modifica" per cancellare o modificarne
+            uno.</p>
+        <a href="{% url 'accounts:createProduct' %}" class="btn-style manager-add">Aggiungi un prodotto</a>
+        <div class="manager-grid">
+            {% for p in products %}
+                <div class="manager-view-item">
+                    <h3>{{ p }}</h3>
+                    <div class="delete-update-wrapper">
+                        <a href="{% url 'accounts:deleteProduct' p.id %}" class="btn-style manager-delete">Elimina</a>
+                        <a href="{% url 'accounts:updateProduct' p.id %}" class="btn-style manager-update">Modifica</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
 </body>
 </html>

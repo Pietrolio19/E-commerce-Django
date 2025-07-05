@@ -13,3 +13,5 @@ vcs.xml
 db.sqlite3
 PPM_project.iml
 
+/dataSources.xml
+/inspectionProfiles/profiles_settings.xml

@@ -16,7 +16,8 @@ class SignUpForm(forms.ModelForm):
                   "address",
                   "city",
                   "state",
-                  "CAP",)
+                  "CAP",
+                  "is_store_manager")
     widgets = {
     "address": forms.Textarea(attrs={"rows": 2}),
     }

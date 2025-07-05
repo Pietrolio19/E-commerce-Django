@@ -1,0 +1,11 @@
+{% extends 'accounts/manager_control_panel.html' %}
+
+{% block content %}
+    <h1>Sei sicuro di voler eliminare questa categoria?</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn-style delete-update" type="submit">Conferma l'eliminazione</button>
+    </form>
+    <a href="{% url 'accounts:manager' %}" class="btn-style">Annulla</a>
+{% endblock %}

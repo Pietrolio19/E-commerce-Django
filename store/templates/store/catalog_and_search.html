@@ -5,6 +5,9 @@
     {% if user.is_authenticated %}
         <div class="welcome">
             <h1>Ciao {{ user.username }}</h1>
+            {% if user.is_store_manager %}
+                <a href="{% url 'accounts:manager' %}" class="btn-style">Accedi al pannello da manager</a>
+            {% endif %}
             <form method="post" action="{% url 'accounts:logout' %}">
                 {% csrf_token %}
                 <button type="submit" class="btn-style">Logout</button>

@@ -36,3 +36,7 @@ class ProfileView(LoginRequiredMixin, DetailView):
         )
         context['categories'] = (Category.objects.all())
         return context
+
+class ManagerView(LoginRequiredMixin, DetailView):
+    model = CustomUser
+    template_name = 'accounts/manager_control_panel.html'

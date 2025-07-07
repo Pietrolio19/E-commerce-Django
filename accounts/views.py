@@ -91,6 +91,7 @@ class ProductUpdateView(LoginRequiredMixin, StoreManagerMixin, UpdateView):
 class CategoryCreateView(LoginRequiredMixin, StoreManagerMixin, CreateView):
     model = Category
     fields = ['name']
+    template_name = 'accounts/category/category_create.html'
     success_url = reverse_lazy('accounts:manager')
 
 

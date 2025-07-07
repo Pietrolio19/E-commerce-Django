@@ -1,0 +1,151 @@
+id,name,price,stock,available,description,category_id
+1,Set di coltelli da cucina KM-635,18.55,5,True,Il Set di coltelli da cucina KM-635 è un prodotto di alta qualità per casa e cucina.,1
+2,Macchina da caffè VU-427,17.09,36,True,Il Macchina da caffè VU-427 è un prodotto di alta qualità per casa e cucina.,1
+3,Padella antiaderente OJ-827,21.58,87,True,Il Padella antiaderente OJ-827 è un prodotto di alta qualità per casa e cucina.,1
+4,Robot da cucina CM-357,66.27,15,True,Il Robot da cucina CM-357 è un prodotto di alta qualità per casa e cucina.,1
+5,Set di pentole FZ-771,16.19,68,True,Il Set di pentole FZ-771 è un prodotto di alta qualità per casa e cucina.,1
+6,Pentola a pressione WG-641,40.24,3,True,Il Pentola a pressione WG-641 è un prodotto di alta qualità per casa e cucina.,1
+7,Frullatore ad immersione TU-823,38.35,73,True,Il Frullatore ad immersione TU-823 è un prodotto di alta qualità per casa e cucina.,1
+8,Bilancia da cucina ZM-455,158.46,88,True,Il Bilancia da cucina ZM-455 è un prodotto di alta qualità per casa e cucina.,1
+9,Tostapane QK-611,63.36,68,True,Il Tostapane QK-611 è un prodotto di alta qualità per casa e cucina.,1
+10,Caraffa termica FA-241,18.57,65,True,Il Caraffa termica FA-241 è un prodotto di alta qualità per casa e cucina.,1
+11,Macchina del pane AA-417,17.51,26,True,Il Macchina del pane AA-417 è un prodotto di alta qualità per casa e cucina.,1
+12,Tagliere in bamboo JV-354,16.99,77,True,Il Tagliere in bamboo JV-354 è un prodotto di alta qualità per casa e cucina.,1
+13,Coltello da pane NZ-383,11.09,58,True,Il Coltello da pane NZ-383 è un prodotto di alta qualità per casa e cucina.,1
+14,Cuociriso elettrico XI-245,70.9,7,True,Il Cuociriso elettrico XI-245 è un prodotto di alta qualità per casa e cucina.,1
+15,Spremiagrumi NC-206,84.05,13,True,Il Spremiagrumi NC-206 è un prodotto di alta qualità per casa e cucina.,1
+16,Orologio da polso FP-639,294.75,83,True,Il Orologio da polso FP-639 è un prodotto di alta qualità per moda e accessori.,2
+17,Borsa a tracolla PQ-102,174.52,19,True,Il Borsa a tracolla PQ-102 è un prodotto di alta qualità per moda e accessori.,2
+18,Cintura in pelle YV-632,133.96,69,True,Il Cintura in pelle YV-632 è un prodotto di alta qualità per moda e accessori.,2
+19,Occhiali da sole MC-318,52.62,87,True,Il Occhiali da sole MC-318 è un prodotto di alta qualità per moda e accessori.,2
+20,Portafoglio in pelle XJ-299,159.6,100,True,Il Portafoglio in pelle XJ-299 è un prodotto di alta qualità per moda e accessori.,2
+21,Foulard in seta VI-847,150.89,82,True,Il Foulard in seta VI-847 è un prodotto di alta qualità per moda e accessori.,2
+22,Zaino urbano ZF-820,51.05,71,True,Il Zaino urbano ZF-820 è un prodotto di alta qualità per moda e accessori.,2
+23,Cappello estivo MS-398,68.49,87,True,Il Cappello estivo MS-398 è un prodotto di alta qualità per moda e accessori.,2
+24,Bracciale in acciaio TZ-962,207.31,94,True,Il Bracciale in acciaio TZ-962 è un prodotto di alta qualità per moda e accessori.,2
+25,Collana con pendente EO-743,280.06,43,True,Il Collana con pendente EO-743 è un prodotto di alta qualità per moda e accessori.,2
+26,Orecchini a cerchio LN-215,191.12,7,True,Il Orecchini a cerchio LN-215 è un prodotto di alta qualità per moda e accessori.,2
+27,Guanti invernali SY-124,154.61,79,True,Il Guanti invernali SY-124 è un prodotto di alta qualità per moda e accessori.,2
+28,Cappotto elegante NO-324,81.52,31,True,Il Cappotto elegante NO-324 è un prodotto di alta qualità per moda e accessori.,2
+29,Sneaker casual OE-674,123.23,69,True,Il Sneaker casual OE-674 è un prodotto di alta qualità per moda e accessori.,2
+30,Calze tecniche UZ-436,150.3,4,True,Il Calze tecniche UZ-436 è un prodotto di alta qualità per moda e accessori.,2
+31,Smartphone GX-974,585.27,49,True,Il Smartphone GX-974 è un prodotto di alta qualità per elettronica.,3
+32,Cuffie wireless CP-869,458.34,27,True,Il Cuffie wireless CP-869 è un prodotto di alta qualità per elettronica.,3
+33,Smartwatch YE-331,971.63,64,True,Il Smartwatch YE-331 è un prodotto di alta qualità per elettronica.,3
+34,Tablet RN-186,1352.29,20,True,Il Tablet RN-186 è un prodotto di alta qualità per elettronica.,3
+35,Portatile ultraleggero SC-740,1517.4,28,True,Il Portatile ultraleggero SC-740 è un prodotto di alta qualità per elettronica.,3
+36,Speaker Bluetooth IB-925,1540.94,0,False,Il Speaker Bluetooth IB-925 è un prodotto di alta qualità per elettronica.,3
+37,Hard disk esterno UJ-520,640.92,14,True,Il Hard disk esterno UJ-520 è un prodotto di alta qualità per elettronica.,3
+38,Action camera JG-722,1903.29,56,True,Il Action camera JG-722 è un prodotto di alta qualità per elettronica.,3
+39,Caricabatterie rapido WM-553,718.5,89,True,Il Caricabatterie rapido WM-553 è un prodotto di alta qualità per elettronica.,3
+40,Power bank JE-442,1533.65,19,True,Il Power bank JE-442 è un prodotto di alta qualità per elettronica.,3
+41,Televisore 4K TB-727,1206.88,73,True,Il Televisore 4K TB-727 è un prodotto di alta qualità per elettronica.,3
+42,Router Wi-Fi RJ-192,676.97,5,True,Il Router Wi-Fi RJ-192 è un prodotto di alta qualità per elettronica.,3
+43,Mouse wireless NK-836,1199.16,0,False,Il Mouse wireless NK-836 è un prodotto di alta qualità per elettronica.,3
+44,Tastiera meccanica YY-597,743.91,11,True,Il Tastiera meccanica YY-597 è un prodotto di alta qualità per elettronica.,3
+45,Webcam HD NG-575,561.0,8,True,Il Webcam HD NG-575 è un prodotto di alta qualità per elettronica.,3
+46,Crema viso idratante JO-228,11.8,34,True,Il Crema viso idratante JO-228 è un prodotto di alta qualità per bellezza e salute.,4
+47,Siero anti-age RO-494,49.25,80,True,Il Siero anti-age RO-494 è un prodotto di alta qualità per bellezza e salute.,4
+48,Shampoo ristrutturante KJ-439,8.99,7,True,Il Shampoo ristrutturante KJ-439 è un prodotto di alta qualità per bellezza e salute.,4
+49,Balsamo nutriente AV-581,37.07,43,True,Il Balsamo nutriente AV-581 è un prodotto di alta qualità per bellezza e salute.,4
+50,Profumo Eau de Parfum NK-462,30.32,10,True,Il Profumo Eau de Parfum NK-462 è un prodotto di alta qualità per bellezza e salute.,4
+51,Rossetto opaco WF-224,31.13,51,True,Il Rossetto opaco WF-224 è un prodotto di alta qualità per bellezza e salute.,4
+52,Smalto unghie MO-552,5.17,42,True,Il Smalto unghie MO-552 è un prodotto di alta qualità per bellezza e salute.,4
+53,Olio per capelli KF-207,13.11,18,True,Il Olio per capelli KF-207 è un prodotto di alta qualità per bellezza e salute.,4
+54,Detergente viso TT-484,2.06,84,True,Il Detergente viso TT-484 è un prodotto di alta qualità per bellezza e salute.,4
+55,Maschera viso ZP-868,5.99,6,True,Il Maschera viso ZP-868 è un prodotto di alta qualità per bellezza e salute.,4
+56,Crema corpo WN-749,31.21,15,True,Il Crema corpo WN-749 è un prodotto di alta qualità per bellezza e salute.,4
+57,Fondotinta liquido DO-529,27.35,36,True,Il Fondotinta liquido DO-529 è un prodotto di alta qualità per bellezza e salute.,4
+58,Gel doccia HB-647,6.52,80,True,Il Gel doccia HB-647 è un prodotto di alta qualità per bellezza e salute.,4
+59,Spazzola lisciante IU-338,11.07,39,True,Il Spazzola lisciante IU-338 è un prodotto di alta qualità per bellezza e salute.,4
+60,Deodorante spray MY-532,6.67,41,True,Il Deodorante spray MY-532 è un prodotto di alta qualità per bellezza e salute.,4
+61,Tappetino yoga XU-392,36.2,37,True,Il Tappetino yoga XU-392 è un prodotto di alta qualità per sport e tempo libero.,5
+62,Pallone da calcio AJ-869,28.51,82,True,Il Pallone da calcio AJ-869 è un prodotto di alta qualità per sport e tempo libero.,5
+63,Scarpe da corsa KW-371,173.15,73,True,Il Scarpe da corsa KW-371 è un prodotto di alta qualità per sport e tempo libero.,5
+64,Borsa palestra JE-853,48.87,59,True,Il Borsa palestra JE-853 è un prodotto di alta qualità per sport e tempo libero.,5
+65,Bicicletta da strada FT-218,86.54,6,True,Il Bicicletta da strada FT-218 è un prodotto di alta qualità per sport e tempo libero.,5
+66,Casco ciclismo AR-624,15.87,17,True,Il Casco ciclismo AR-624 è un prodotto di alta qualità per sport e tempo libero.,5
+67,Palla da basket FH-881,61.2,14,True,Il Palla da basket FH-881 è un prodotto di alta qualità per sport e tempo libero.,5
+68,Set pesi manubri LY-417,67.56,49,True,Il Set pesi manubri LY-417 è un prodotto di alta qualità per sport e tempo libero.,5
+69,Racchetta da tennis DB-696,194.89,95,True,Il Racchetta da tennis DB-696 è un prodotto di alta qualità per sport e tempo libero.,5
+70,Tenda da campeggio QV-617,289.14,37,True,Il Tenda da campeggio QV-617 è un prodotto di alta qualità per sport e tempo libero.,5
+71,Sacco da boxe GQ-812,104.37,17,True,Il Sacco da boxe GQ-812 è un prodotto di alta qualità per sport e tempo libero.,5
+72,Orologio sportivo SN-183,145.4,97,True,Il Orologio sportivo SN-183 è un prodotto di alta qualità per sport e tempo libero.,5
+73,Gilet termico ZY-169,186.2,50,True,Il Gilet termico ZY-169 è un prodotto di alta qualità per sport e tempo libero.,5
+74,Pattini a rotelle JX-430,191.15,89,True,Il Pattini a rotelle JX-430 è un prodotto di alta qualità per sport e tempo libero.,5
+75,Borraccia termica AW-298,63.58,4,True,Il Borraccia termica AW-298 è un prodotto di alta qualità per sport e tempo libero.,5
+76,Puzzle 1000 pezzi NQ-952,45.5,16,True,Il Puzzle 1000 pezzi NQ-952 è un prodotto di alta qualità per giocattoli e bambini.,6
+77,Costruzioni in legno GG-523,35.94,78,True,Il Costruzioni in legno GG-523 è un prodotto di alta qualità per giocattoli e bambini.,6
+78,Bambola fashion DF-155,45.78,2,True,Il Bambola fashion DF-155 è un prodotto di alta qualità per giocattoli e bambini.,6
+79,Macchinina RC RL-633,23.28,22,True,Il Macchinina RC RL-633 è un prodotto di alta qualità per giocattoli e bambini.,6
+80,Peluche orsetto EP-252,14.22,98,True,Il Peluche orsetto EP-252 è un prodotto di alta qualità per giocattoli e bambini.,6
+81,Kit pittura UJ-565,37.65,56,True,Il Kit pittura UJ-565 è un prodotto di alta qualità per giocattoli e bambini.,6
+82,Gioco educativo NU-205,29.37,70,True,Il Gioco educativo NU-205 è un prodotto di alta qualità per giocattoli e bambini.,6
+83,Treno in legno JR-232,21.22,39,True,Il Treno in legno JR-232 è un prodotto di alta qualità per giocattoli e bambini.,6
+84,Action figure SM-261,29.24,45,True,Il Action figure SM-261 è un prodotto di alta qualità per giocattoli e bambini.,6
+85,Set magia XR-980,46.33,19,True,Il Set magia XR-980 è un prodotto di alta qualità per giocattoli e bambini.,6
+86,Gioco memory OZ-721,36.27,37,True,Il Gioco memory OZ-721 è un prodotto di alta qualità per giocattoli e bambini.,6
+87,Scacchiera magnetica RV-481,64.76,100,True,Il Scacchiera magnetica RV-481 è un prodotto di alta qualità per giocattoli e bambini.,6
+88,Tappeto gioco TV-831,11.79,71,True,Il Tappeto gioco TV-831 è un prodotto di alta qualità per giocattoli e bambini.,6
+89,Kit esperimenti NT-279,19.35,77,True,Il Kit esperimenti NT-279 è un prodotto di alta qualità per giocattoli e bambini.,6
+90,Puzzle 3D SF-286,33.74,3,True,Il Puzzle 3D SF-286 è un prodotto di alta qualità per giocattoli e bambini.,6
+91,Romanzo giallo CD-800,14.79,60,True,Il Romanzo giallo CD-800 è un prodotto di alta qualità per libri e media.,7
+92,Manuale fotografico WF-519,28.23,88,True,Il Manuale fotografico WF-519 è un prodotto di alta qualità per libri e media.,7
+93,Abbonamento audiobook VL-158,24.27,1,True,Il Abbonamento audiobook VL-158 è un prodotto di alta qualità per libri e media.,7
+94,Libro di cucina italiana ZT-301,9.7,84,True,Il Libro di cucina italiana ZT-301 è un prodotto di alta qualità per libri e media.,7
+95,Fumetto Marvel KF-122,19.8,10,True,Il Fumetto Marvel KF-122 è un prodotto di alta qualità per libri e media.,7
+96,Enciclopedia generale EA-524,25.34,75,True,Il Enciclopedia generale EA-524 è un prodotto di alta qualità per libri e media.,7
+97,Biografia celebre GH-255,27.24,42,True,Il Biografia celebre GH-255 è un prodotto di alta qualità per libri e media.,7
+98,Album musicale HH-925,16.63,81,True,Il Album musicale HH-925 è un prodotto di alta qualità per libri e media.,7
+99,DVD film cult DB-279,28.89,43,True,Il DVD film cult DB-279 è un prodotto di alta qualità per libri e media.,7
+100,Libro di poesie ZY-729,23.48,43,True,Il Libro di poesie ZY-729 è un prodotto di alta qualità per libri e media.,7
+101,Guida turistica Europa YW-884,27.19,62,True,Il Guida turistica Europa YW-884 è un prodotto di alta qualità per libri e media.,7
+102,Ebook thriller CE-336,28.24,44,True,Il Ebook thriller CE-336 è un prodotto di alta qualità per libri e media.,7
+103,Rivista moda SA-725,19.63,32,True,Il Rivista moda SA-725 è un prodotto di alta qualità per libri e media.,7
+104,CD di musica classica XE-730,8.57,4,True,Il CD di musica classica XE-730 è un prodotto di alta qualità per libri e media.,7
+105,Libro per bambini FG-635,26.67,81,True,Il Libro per bambini FG-635 è un prodotto di alta qualità per libri e media.,7
+106,Scheda video RTX 4070 FX-706,243.8,10,True,Il Scheda video RTX 4070 FX-706 è un prodotto di alta qualità per hardware e informatica.,8
+107,Processore Ryzen 5 XV-335,350.47,40,True,Il Processore Ryzen 5 XV-335 è un prodotto di alta qualità per hardware e informatica.,8
+108,SSD NVMe 1TB DR-368,392.43,58,True,Il SSD NVMe 1TB DR-368 è un prodotto di alta qualità per hardware e informatica.,8
+109,RAM 16GB DDR4 KL-409,2594.06,54,True,Il RAM 16GB DDR4 KL-409 è un prodotto di alta qualità per hardware e informatica.,8
+110,"Monitor 27"" 144Hz II-279",1221.29,27,True,"Il Monitor 27"" 144Hz II-279 è un prodotto di alta qualità per hardware e informatica.",8
+111,Alimentatore 650W VY-366,77.51,95,True,Il Alimentatore 650W VY-366 è un prodotto di alta qualità per hardware e informatica.,8
+112,Case ATX JV-896,374.47,16,True,Il Case ATX JV-896 è un prodotto di alta qualità per hardware e informatica.,8
+113,Mouse gaming KW-921,202.46,59,True,Il Mouse gaming KW-921 è un prodotto di alta qualità per hardware e informatica.,8
+114,Tastiera meccanica YJ-673,64.68,12,True,Il Tastiera meccanica YJ-673 è un prodotto di alta qualità per hardware e informatica.,8
+115,Dissipatore CPU OJ-167,487.99,98,True,Il Dissipatore CPU OJ-167 è un prodotto di alta qualità per hardware e informatica.,8
+116,Scheda madre B550 JN-840,88.90,24,True,Il Scheda madre B550 JN-840 è un prodotto di alta qualità per hardware e informatica.,8
+117,Cuffie gaming BB-602,130.66,46,True,Il Cuffie gaming BB-602 è un prodotto di alta qualità per hardware e informatica.,8
+118,Webcam 1080p HT-299,90.95,7,True,Il Webcam 1080p HT-299 è un prodotto di alta qualità per hardware e informatica.,8
+119,Hub USB-C DG-712,30.56,50,True,Il Hub USB-C DG-712 è un prodotto di alta qualità per hardware e informatica.,8
+120,Scheda audio FI-450,31.23,71,True,Il Scheda audio FI-450 è un prodotto di alta qualità per hardware e informatica.,8
+121,Set attrezzi giardinaggio PV-720,47.02,51,True,Il Set attrezzi giardinaggio PV-720 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+122,Tagliaerba elettrico SA-748,219.2,89,True,Il Tagliaerba elettrico SA-748 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+123,Serra da giardino JI-650,107.1,65,True,Il Serra da giardino JI-650 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+124,Irrigatore automatico MI-196,297.96,84,True,Il Irrigatore automatico MI-196 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+125,Fertilizzante organico YR-499,79.21,24,True,Il Fertilizzante organico YR-499 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+126,Guanti da giardinaggio OE-907,57.05,24,True,Il Guanti da giardinaggio OE-907 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+127,Concime universale XB-463,38.88,56,True,Il Concime universale XB-463 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+128,Terriccio universale EQ-251,99.21,29,True,Il Terriccio universale EQ-251 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+129,Tagliasiepi TZ-876,98.5,55,True,Il Tagliasiepi TZ-876 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+130,Troncarami SQ-390,106.32,70,True,Il Troncarami SQ-390 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+131,Vaso in terracotta PG-821,22.46,55,True,Il Vaso in terracotta PG-821 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+132,Tubo flessibile 20m XD-608,39.28,25,True,Il Tubo flessibile 20m XD-608 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+133,Sedia da esterno UW-959,27.91,73,True,Il Sedia da esterno UW-959 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+134,Amaca da giardino XV-265,85.25,17,True,Il Amaca da giardino XV-265 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+135,Barbecue a gas RU-856,266.43,98,True,Il Barbecue a gas RU-856 è un prodotto di alta qualità per giardinaggio e outdoor.,9
+136,Ganasce freno anteriori VR-329,35.35,66,True,Il Ganasce freno anteriori VR-329 è un prodotto di alta qualità per auto e moto.,10
+137,Filtro olio TR-809,39.79,89,True,Il Filtro olio TR-809 è un prodotto di alta qualità per auto e moto.,10
+138,Coprisedile in ecopelle YS-117,11.12,96,True,Il Coprisedile in ecopelle YS-117 è un prodotto di alta qualità per auto e moto.,10
+139,Navigatore GPS IG-417,49.38,46,True,Il Navigatore GPS IG-417 è un prodotto di alta qualità per auto e moto.,10
+140,Casco moto integrale UG-468,955.19,16,True,Il Casco moto integrale UG-468 è un prodotto di alta qualità per auto e moto.,10
+141,Giacca moto IX-329,995.8,20,True,Il Giacca moto IX-329 è un prodotto di alta qualità per auto e moto.,10
+142,Kit pulizia auto XK-256,181.81,58,True,Il Kit pulizia auto XK-256 è un prodotto di alta qualità per auto e moto.,10
+143,Catene da neve AK-443,154.45,63,True,Il Catene da neve AK-443 è un prodotto di alta qualità per auto e moto.,10
+144,Copriruota di scorta OT-156,266.58,31,True,Il Copriruota di scorta OT-156 è un prodotto di alta qualità per auto e moto.,10
+145,Borsone da viaggio QP-359,132.27,74,True,Il Borsone da viaggio QP-359 è un prodotto di alta qualità per auto e moto.,10
+146,Dash Cam XE-276,83.96,6,True,Il Dash Cam XE-276 è un prodotto di alta qualità per auto e moto.,10
+147,Olio motore sintetico EH-474,145.08,13,True,Il Olio motore sintetico EH-474 è un prodotto di alta qualità per auto e moto.,10
+148,Parabrezza universale HU-636,90.38,40,True,Il Parabrezza universale HU-636 è un prodotto di alta qualità per auto e moto.,10
+149,Supporto smartphone auto SG-208,65.41,72,True,Il Supporto smartphone auto SG-208 è un prodotto di alta qualità per auto e moto.,10
+150,Lampadine LED LB-913,10.19,100,True,Il Lampadine LED LB-913 è un prodotto di alta qualità per auto e moto.,10

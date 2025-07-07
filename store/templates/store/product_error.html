@@ -1,0 +1,17 @@
+{% extends 'store/base.html' %}
+
+{% block content %}
+
+    <div>
+        <div class="alert alert-danger">
+            <h4>Errore nell'aggiunta al carrello</h4>
+            <p>{{ error_message }}</p>
+            <hr>
+            <p>Prodotto: <strong>{{ product.name }}</strong></p>
+            <a class="btn-style" href="{% url 'catalog' %}">
+                Torna al Catalogo
+            </a>
+        </div>
+    </div>
+
+{% endblock %}

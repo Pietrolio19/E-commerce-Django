@@ -7,7 +7,7 @@
 
 .base-form {
     padding: 0;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .form-wrapper {
@@ -148,6 +148,10 @@
 
 .price {
     margin: 0 0 5px 0;
+}
+
+.product-stock {
+    color: red;
 }
 
 .product-desc {

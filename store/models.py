@@ -9,6 +9,8 @@ class Order(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     status = models.CharField(max_length=20, default='in_progress')
     completed_at = models.DateTimeField(null=True, blank=True)
+    payment_method = models.CharField(max_length=100, null=True, blank=True)
+    shipping_address = models.TextField(null=True, blank=True)
 
     def total_order_cost(self):
         return sum(item.total_cost() for item in self.items.all())

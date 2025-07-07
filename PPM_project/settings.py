@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os, dj_database_url, django
+from django.contrib.messages import constants as message_constants
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -81,7 +82,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "PPM_project.wsgi.application"
+#WSGI_APPLICATION = "PPM_project.wsgi.application"
 
 
 # Database
@@ -89,13 +90,20 @@ WSGI_APPLICATION = "PPM_project.wsgi.application"
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 
-DATABASES = {
+DATABASES = { #database per production
     "default": dj_database_url.parse(
         DATABASE_URL,
         conn_max_age=600,
         ssl_require=True,
     )
 }
+
+#DATABASES = { #database per testing locale
+#    "default": {
+#        "ENGINE": "django.db.backends.sqlite3",
+#        "NAME": BASE_DIR / "db.sqlite3",
+#    }
+#}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -140,6 +148,12 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+#Aggiunte
+
 AUTH_USER_MODEL = "accounts.CustomUser"
 
 LOGIN_REDIRECT_URL = "catalog"
+
+MESSAGE_TAGS = {
+    message_constants.ERROR: 'danger',
+}

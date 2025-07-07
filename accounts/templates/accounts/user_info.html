@@ -20,6 +20,8 @@
                 {% endfor %}
             </ul>
             <h3>Totale: {{ o.total_order_cost }} &#8364;</h3>
+            <h3>Hai pagato con: {{ o.payment_method }}</h3>
+            <h3>L'ordine verrà spedito in: {{ o.shipping_address }}</h3>
         {% endfor %}
     {% else %}
         <h3>Quando effettuerai un ordine comparirà qua sotto</h3>

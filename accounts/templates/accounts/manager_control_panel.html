@@ -1,12 +1,5 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Pannello di Controllo</title>
-    <link rel="stylesheet" href="{% static 'store/css/style.css' %}">
-</head>
-<body>
+{% extends 'store/base.html' %}
+
 {% block content %}
     <div class="manager-wrapper">
         <h1>Ordini:</h1>
@@ -60,5 +53,3 @@
         </div>
     </div>
 {% endblock %}
-</body>
-</html>

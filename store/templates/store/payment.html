@@ -2,6 +2,8 @@
 
 {% block content %}
     <h1>Pagamento Riuscito!</h1>
-    <a href="{% url 'catalog' %}" class="btn-style">Ritorna alla home</a>
-    <a href="{% url 'accounts:profile' %}" class="btn-style">Visualizza i miei ordini</a>
+    <div class="after-payment-option">
+        <a href="{% url 'catalog' %}" class="btn-style back-to-home">Ritorna alla home</a>
+        <a href="{% url 'accounts:profile' %}" class="btn-style">Visualizza i miei ordini</a>
+    </div>
 {% endblock %}

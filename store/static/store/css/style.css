@@ -1,6 +1,6 @@
 .main-content {
     max-width: 100%;
-    min-width: 300px;
+    min-width: 200px;
     align-self: center;
     padding-left: 5px;
     padding-right: 5px;
@@ -135,15 +135,14 @@ select.cat-btn {
     align-self: flex-end;
 }
 
-.wrapper{
+.wrapper {
     max-width: 1350px;
     margin-inline: auto;
-    padding-inline: 16px;
 }
 
 .grid-layout {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 16px;
     justify-items: center;
 }
@@ -154,7 +153,7 @@ select.cat-btn {
     padding: 10px;
 }
 
-.grid-element h2, h3, h5, img:hover{
+.grid-element h2, h3, h5, img:hover {
     cursor: pointer;
 }
 
@@ -207,27 +206,27 @@ select.cat-btn {
     cursor: pointer;
 }
 
-.pagination{
-  display: flex;
-  list-style: none;
-  gap: 8px;
-  padding: 0;
-  justify-content: center;
+.pagination {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    padding: 0;
+    justify-content: center;
 }
 
-.pagination .page-item a{
-  display: block;
-  padding: 8px 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #333;
+.pagination .page-item a {
+    display: block;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
 }
 
-.pagination .page-item.active a{
-  background: #333;
-  color: #fff;
-  pointer-events: none;
+.pagination .page-item.active a {
+    background: #333;
+    color: #fff;
+    pointer-events: none;
 }
 
 /* template cart */
@@ -264,10 +263,6 @@ select.cat-btn {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-.info {
-    flex: 2.75 1 0;
 }
 
 .product-price {
@@ -334,7 +329,7 @@ select.cat-btn {
     align-items: center;
 }
 
-.checkout-anchor-column a{
+.checkout-anchor-column a {
     display: inline-block;
     align-items: start;
     margin: 0 auto;
@@ -387,7 +382,7 @@ select.cat-btn {
 
 .manager-grid {
     display: grid;
-    grid-template-columns: repeat(3 , minmax(200px, 1fr));
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
     gap: 12px;
     margin-top: 10px;
 }
@@ -398,7 +393,7 @@ select.cat-btn {
 
 .manager-wrapper h1 {
     padding: 0;
-    margin: 3px ;
+    margin: 3px;
 }
 
 .manager-view-item {
@@ -464,8 +459,8 @@ select.cat-btn {
     background-color: darkred;
 }
 
-@media screen and (max-width: 1170px) { /* tablet */
-
+@media screen and (max-width: 1170px) {
+    /* tablet */
     .grid-element {
         text-align: center;
     }
@@ -480,11 +475,10 @@ select.cat-btn {
     }
 }
 
-@media screen and (max-width: 670px) { /* smartphone */
-
-    .top-bar {
-        max-width: 100%;
-        min-width: 300px;
+@media screen and (max-width: 670px) {
+    /* smartphone */
+    .base-form {
+        font-size: 12px;
     }
 
     .welcome {
@@ -502,8 +496,8 @@ select.cat-btn {
 
     .grid-layout {
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 6px;
     }
 
     .checkout-resume {
@@ -535,3 +529,72 @@ select.cat-btn {
         justify-content: space-between;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .top-bar {
+        max-width: 100%;
+        min-width: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .cat-btn,
+    .top-btn,
+    .cart-btn,
+    .user-btn {
+        flex: 0 1 auto;
+        margin: 2px;
+    }
+
+    .top-input {
+        flex: 1 1 auto;
+        min-width: 0;
+        height: 24px;
+    }
+
+    .cart-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+
+    .cart-article {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 8px;
+        padding: 12px;
+    }
+
+    /* riordino e centering */
+    .product-name {
+        font-size: 1.1em;
+    }
+
+    .product-price,
+    .product-quantity {
+        display: inline-block;
+        width: auto;
+    }
+
+    .cart-trash-bin {
+        justify-self: end;
+        vertical-align: center;
+    }
+
+    .checkout {
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    .checkout-resume {
+        text-align: start;
+        align-items: start;
+        padding: 3px;
+    }
+
+    .checkout-anchor-column {
+        text-align: start;
+    }
+}
+
+

@@ -3,43 +3,50 @@
 
 {% block content %}
     <h1 class="checkout-title">Checkout</h1>
-    <div class="checkout-resume">
-        <div class="checkout-text-column">
-            <h2>Totale da Pagare: {{ order.total_order_cost }} &#8364;</h2>
-            <form method="POST" action="{% url 'checkout' %}">
-                {% csrf_token %}
-                <div>
-                    <label for="payment-method">Scegli Metodo di Pagamento:</label>
-                    <select id="payment-method" name="payment_method" required>
-                        <option value="">Scegli un metodo di pagamento</option>
-                        <option value="Carta di Credito"
-                                {% if order.payment_method == "Carta di Credito" %}selected{% endif %}>Carta di Credito
-                        </option>
-                        <option value="Bonifico Bancario"
-                                {% if order.payment_method == "Bonifico Bancario" %}selected{% endif %}>Bonifico Bancario
-                        </option>
-                        <option value="PayPal" {% if order.payment_method == "PayPal" %}selected{% endif %}>PayPal</option>
-                        <option value="Satispay" {% if order.payment_method == "Satispay" %}selected{% endif %}>Satispay
-                        </option>
-                    </select>
-                </div>
+    <div class="checkout-wrapper">
+        <div class="checkout-resume">
+            <div class="checkout-text-column">
+                <h2>Totale da Pagare: {{ order.total_order_cost }} &#8364;</h2>
+                <form method="POST" action="{% url 'checkout' %}">
+                    {% csrf_token %}
+                    <div>
+                        <label for="payment-method">Scegli Metodo di Pagamento:</label>
+                        <select id="payment-method" name="payment_method" required>
+                            <option value="">Scegli un metodo di pagamento</option>
+                            <option value="Carta di Credito"
+                                    {% if order.payment_method == "Carta di Credito" %}selected{% endif %}>Carta di
+                                Credito
+                            </option>
+                            <option value="Bonifico Bancario"
+                                    {% if order.payment_method == "Bonifico Bancario" %}selected{% endif %}>Bonifico
+                                Bancario
+                            </option>
+                            <option value="PayPal" {% if order.payment_method == "PayPal" %}selected{% endif %}>PayPal
+                            </option>
+                            <option value="Satispay" {% if order.payment_method == "Satispay" %}selected{% endif %}>
+                                Satispay
+                            </option>
+                        </select>
+                    </div>
 
-                <div class="address-select-wrapper">
-                    <label for="user-address">Seleziona un indirizzo per la spedizione:</label>
-                    <select id="user-address" name="shipping_address" required>
-                        <option value="">Seleziona un indirizzo</option>
-                        {% for a in addresses %}
-                            <option value="{{ a }}" {% if order.shipping_address == a %}selected{% endif %}>{{ a }}</option>
-                        {% endfor %}
-                    </select>
-                </div>
-                <button type="submit" class="btn-style">Conferma metodo di pagamento e indirizzo</button>
-            </form>
+                    <div class="address-select-wrapper">
+                        <label for="user-address">Seleziona un indirizzo per la spedizione:</label>
+                        <select id="user-address" name="shipping_address" required>
+                            <option value="">Seleziona un indirizzo</option>
+                            {% for a in addresses %}
+                                <option value="{{ a }}"
+                                        {% if order.shipping_address == a %}selected{% endif %}>{{ a }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-style">Conferma metodo di pagamento e indirizzo</button>
+                </form>
+            </div>
+            <div class="checkout-anchor-column">
+                <a href="{% url 'cart_view' %}" class="btn-style">Rivedi il carrello</a>
+                <a href="{% url 'payment' %}" class="btn-style">Paga</a>
+            </div>
         </div>
-        <div class="checkout-anchor-column">
-            <a href="{% url 'cart_view' %}" class="btn-style">Rivedi il carrello</a>
-            <a href="{% url 'payment' %}" class="btn-style">Paga</a>
-        </div>
+
     </div>
-
 {% endblock %}

@@ -16,7 +16,7 @@ class Order(models.Model):
         return sum(item.total_cost() for item in self.items.all())
 
     def save(self, *args, **kwargs):
-        if self.status == 'completed' and self.completed_at is None:
+        if self.status == 'completato' and self.completed_at is None:
             self.completed_at = timezone.now()
 
         super().save(*args, **kwargs)

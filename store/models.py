@@ -7,7 +7,7 @@ from PPM_project import settings
 class Order(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
-    status = models.CharField(max_length=20, default='in_progress')
+    status = models.CharField(max_length=20, default='in elaborazione')
     completed_at = models.DateTimeField(null=True, blank=True)
     payment_method = models.CharField(max_length=100, null=True, blank=True)
     shipping_address = models.TextField(null=True, blank=True)
@@ -25,7 +25,9 @@ class Order(models.Model):
     def __str__(self):
         if self.status == 'completed':
             order_state = 'completato'
-            info = f'Ordine effettuato da {self.user} in data: {self.completed_at:%Y-%m-%d %H:%M}, in stato: {order_state}'
+            info = (f'Ordine effettuato in data: {self.completed_at:%Y-%m-%d %H:%M} \n '
+                    f"Dall'utente: {self.user.username} \n "
+                    f"Stato dell'ordine: {order_state}")
         else:
             order_state = 'in elaborazione'
             info = f'Ordine creato da {self.user} in data: {self.created_at:%Y-%m-%d %H:%M}, stato: {order_state}'

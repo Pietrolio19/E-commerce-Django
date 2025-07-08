@@ -1,6 +1,8 @@
 .main-content {
     max-width: 100%;
     align-self: center;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 /*template base */
@@ -11,19 +13,30 @@
 }
 
 .form-wrapper {
+    display: flex;
+    flex-direction: row;
     position: sticky;
     top: 0;
     width: 100%;
     z-index: 1000;
     background-color: white;
+    padding: 5px;
 }
 
 .top-bar {
-    padding: 4px 12px;
-    border-bottom: black solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
 }
 
 .cat-btn {
+    flex: 0 0 auto;
+    min-width: 70px;
+    max-width: 200px;
     display: inline-block;
     height: 28px;
     vertical-align: middle;
@@ -31,9 +44,20 @@
     border: 1px solid lightsalmon;
 }
 
+select.cat-btn {
+    width: auto;
+    min-width: 70px;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .top-input {
-    display: inline-block;
-    width: 78%;
+    flex: 1 1 auto;
+    min-width: 100px;
+    width: clamp(100px, 75vw, 1000px);
+    max-width: 100%;
     height: 28px;
     vertical-align: middle;
     border-radius: 20px;
@@ -41,6 +65,7 @@
 }
 
 .top-btn {
+    flex: 0 0 auto;
     display: inline-block;
     width: 4%;
     height: 28px;
@@ -65,11 +90,13 @@
 
 .cart-btn,
 .user-btn {
-    display: inline-block;
+    flex: 0 0 auto;
+    width: 22px;
     height: 22px;
+    display: inline-block;
     background-color: white;
     border: none;
-    margin: 0 0 0 20px;
+    margin: 0;
     vertical-align: middle;
 }
 
@@ -117,24 +144,20 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 16px;
+    justify-items: center;
 }
 
 .grid-element {
     margin-bottom: 30px;
     border: 1px solid lightsalmon;
-    padding: 0 0 10px 11px;
+    padding: 10px;
 }
 
-
-.product-img {
-    margin-top: 10px;
-}
-
-.grid-element h3, h5, img:hover{
+.grid-element h2, h3, h5, img:hover{
     cursor: pointer;
 }
 
-.grid-element h3 {
+.grid-element h2 {
     padding: 0;
     margin: 0;
     max-width: 300px;
@@ -147,7 +170,9 @@
 }
 
 .price {
-    margin: 0 0 5px 0;
+    color: #333333;
+    font-size: 20px;
+    margin: 0 3px 0 0;
 }
 
 .product-stock {
@@ -159,12 +184,6 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     margin: 0 0 10px 0;
-}
-
-.price {
-    color: #333333;
-    font-size: 20px;
-    margin-bottom: 3px;
 }
 
 .btn-style {
@@ -267,6 +286,8 @@
     flex: 0.5;
 }
 
+/* checkout template*/
+
 .checkout {
     position: sticky;
     top: 16px;
@@ -277,8 +298,6 @@
     vertical-align: center;
     text-align: center;
 }
-
-/* checkout template*/
 
 .checkout-title {
     text-align: center;
@@ -325,12 +344,43 @@
     margin-top: 10px;
 }
 
+/* accounts templates */
+
+/* user_info template */
+
+.user-info {
+    border: 1px solid lightsalmon;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.user-info li,
+.order-products li {
+    font-size: 16px;
+}
+
+.user-orders {
+    border: 1px solid lightsalmon;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.order-products {
+    margin-bottom: 0;
+}
+
+.domicile {
+    margin: 0;
+    padding: 0;
+}
+
 /* manager template */
 
 .manager-wrapper {
     border: 2px solid #ddd;
     padding: 20px;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .manager-grid {
@@ -410,4 +460,58 @@
 
 .manager-delete:hover {
     background-color: darkred;
+}
+
+@media screen and (max-width: 1170px) { /* tablet */
+
+    .grid-element {
+        text-align: center;
+    }
+
+    .cart-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .delete-update-wrapper {
+        flex-direction: column;
+        gap: 4px;
+    }
+}
+
+@media screen and (max-width: 670px) { /* smartphone */
+
+    .welcome {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        margin-bottom: 5px;
+    }
+
+    .base-form {
+        display: none;
+    }
+
+    .grid-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .checkout-resume {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        text-align: center;
+    }
+
+    .checkout-resume select {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .manager-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .manager-view-item {
+        justify-content: space-between;
+    }
 }

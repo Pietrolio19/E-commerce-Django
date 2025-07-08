@@ -114,7 +114,7 @@ def checkout(request):
 @login_required(login_url="/login/")
 def payment(request):
     current_order = get_object_or_404(Order, user=request.user, status="in_progress")
-    current_order.status = "completed"
+    current_order.status = "completato"
     items = current_order.items.all()
     for o in items:
         o.product.stock -= o.quantity

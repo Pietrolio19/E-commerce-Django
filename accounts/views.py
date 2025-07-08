@@ -110,12 +110,11 @@ class CategoryUpdateView(LoginRequiredMixin, StoreManagerMixin, UpdateView):
 
 class OrderDeleteView(LoginRequiredMixin, StoreManagerMixin, DeleteView):
     model = Order
-    fields = []
     template_name = 'accounts/order/delete_order_confirmation.html'
     success_url = reverse_lazy('accounts:manager')
 
 class OrderUpdateView(LoginRequiredMixin, StoreManagerMixin, UpdateView):
     model = Order
-    fields = []
+    fields = ['user', 'status', 'completed_at', 'payment_method', 'shipping_address']
     template_name = 'accounts/order/update_order_confirmation.html'
     success_url = reverse_lazy('accounts:manager')

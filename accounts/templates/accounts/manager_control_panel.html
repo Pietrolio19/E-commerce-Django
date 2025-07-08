@@ -7,7 +7,7 @@
         <div class="manager-grid manager-order-grid">
             {% for o in orders %}
                 <div class="manager-view-item manager-order-text">
-                    <h3>{{ o }}</h3>
+                    <h3>Ordine creato dall'utente: {{ o.user }}, in data: {{ o.completed_at }}, stato dell'ordine: {{ o.status }}</h3>
                     <div class="delete-update-wrapper">
                         <a href="{% url 'accounts:deleteOrder' o.id %}" class="btn-style manager-delete">Elimina</a>
                         <a href="{% url 'accounts:updateOrder' o.id %}" class="btn-style manager-update">Modifica</a>

@@ -82,7 +82,7 @@ TEMPLATES = [
     },
 ]
 
-#WSGI_APPLICATION = "PPM_project.wsgi.application"
+WSGI_APPLICATION = "PPM_project.wsgi.application"
 
 
 # Database
@@ -157,3 +157,8 @@ LOGIN_REDIRECT_URL = "catalog"
 MESSAGE_TAGS = {
     message_constants.ERROR: 'danger',
 }
+
+LANGUAGE_CODE = 'it'
+USE_I18N = True  # internationalization (traduzioni)
+USE_L10N = True  # localizzazione automatica di date/numeri
+USE_TZ = True

@@ -1,9 +1,11 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load static %}
+    {% load l10n %}
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{% static 'store/css/style.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>E-Commerce</title>
 </head>
 <body>
@@ -24,7 +26,7 @@
             <label for="usr-input"></label>
             <input id="usr-input" name="q" class="top-input" type="search" placeholder="Cerca prodotti…"
                    value="{{ q }}">
-            <button class="top-btn" type="submit">Cerca</button>
+            <button class="btn-style" type="submit">Cerca</button>
             <a href="{% url 'cart_view' %}" class="cart-btn">
                 <img src="{% static "store/img/shopping_cart_16dp_1F1F1F_FILL0_wght400_GRAD0_opsz20.svg" %}"
                      alt="cart">

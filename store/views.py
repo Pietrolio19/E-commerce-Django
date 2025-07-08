@@ -34,7 +34,7 @@ def catalog(request):
 @login_required(login_url='/login/')
 def cart_view(request):
     user_filter = request.user if request.user.is_authenticated else None
-    order = Order.objects.filter(user=user_filter, status="in_progress").prefetch_related("items__product").first()
+    order = Order.objects.filter(user=user_filter, status="in elaborazione").prefetch_related("items__product").first()
     categories = Category.objects.all()
     return render(request, "store/cart.html", {'order': order, 'categories': categories})
 
@@ -52,7 +52,7 @@ def add_to_cart(request, product_id, qty=1):
         return render(request, 'store/product_error.html', context)
 
     #in caso l'utente non abbia ancora un ordine in sospeso ne creo uno
-    order, _ = Order.objects.get_or_create(user=user_ref, status="in_progress")
+    order, _ = Order.objects.get_or_create(user=user_ref, status="in elaborazione")
 
     item, created = OrderItem.objects.get_or_create(order=order, product=product, defaults= {'quantity': qty})
 
@@ -66,7 +66,7 @@ def add_to_cart(request, product_id, qty=1):
 @login_required(login_url="/login/")
 def remove_from_cart(request, product_id):
     user_ref = request.user if request.user.is_authenticated else None
-    item = get_object_or_404(OrderItem, pk=product_id, order__user=user_ref, order__status="in_progress")
+    item = get_object_or_404(OrderItem, pk=product_id, order__user=user_ref, order__status="in elaborazione")
     item.delete()
     return redirect("cart_view")
 
@@ -74,7 +74,7 @@ def remove_from_cart(request, product_id):
 def checkout(request):
     order = Order.objects.filter(
         user=request.user,
-        status="in_progress"
+        status="in elaborazione"
     ).prefetch_related("items__product").first()
 
     if not order or order.items.count() == 0:

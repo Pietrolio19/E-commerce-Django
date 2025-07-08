@@ -127,11 +127,13 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = 'it'
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "CET"
 
-USE_I18N = True
+USE_I18N = True  # internationalization (traduzioni)
+
+USE_L10N = True  # localizzazione automatica di date/numeri
 
 USE_TZ = True
 
@@ -158,7 +160,4 @@ MESSAGE_TAGS = {
     message_constants.ERROR: 'danger',
 }
 
-LANGUAGE_CODE = 'it'
-USE_I18N = True  # internationalization (traduzioni)
-USE_L10N = True  # localizzazione automatica di date/numeri
-USE_TZ = True
+

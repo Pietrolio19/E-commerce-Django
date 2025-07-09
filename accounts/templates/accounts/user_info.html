@@ -22,9 +22,16 @@
             {% for o in orders %}
                 <ul>
                     <li>
-                        <h3>Ordine effettuato in data: {{ o.completed_at|date:"j F Y H:i"}} <br> Dall'utente: {{ o.user }} <br> Stato
-                            dell'ordine: {{ o.status }}</h3>
-                        <h3 class="order-products">Contenuto dell'ordine:</h3>
+                        {% if o.completed_at is None %}
+                            <h3>Ordine effettuato in data: {{ o.created_at|date:"j F Y H:i" }} <br>
+                                Dall'utente: {{ o.user }} <br>
+                                Stato dell'ordine: {{ o.status }}</h3>
+                        {% else %}
+                            <h3>Ordine effettuato in data: {{ o.completed_at|date:"j F Y H:i" }} <br>
+                                Dall'utente: {{ o.user }} <br>
+                                Stato dell'ordine: {{ o.status }}</h3>
+                            <h3 class="order-products">Contenuto dell'ordine:</h3>
+                        {% endif %}
                         <ul>
                             {% for item in o.items.all %}
                                 <li>

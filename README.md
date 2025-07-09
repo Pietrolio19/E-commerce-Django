@@ -5,21 +5,18 @@ Il lato manager è accessibile solo dagli "store_manager" che presentano nel mod
 
 <h3>In caso si voglia testare il lato user è possibile fare una sign up inventando un account oppure usare l'utente fittizio: (Username: Posto, Password: Posto25+), per il lato manager si può usare l'utente fittizio: (Username: store_manager1, Password: storemanager1).</h3>
 
-Creare un ambiente conda tramite Anaconda Prompt: 
-conda create -n e-commerce-django python=3.11
-conda activate e-commerce-django
-Spostarsi nella cartella del progetto
-pip install -r requirements.txt
+Creare un ambiente conda tramite Anaconda Prompt: <br>
+conda create -n e-commerce-django python=3.11 <br>
+conda activate e-commerce-django <br>
+Spostarsi nella cartella del progetto <br>
+pip install -r requirements.txt <br>
 
 In caso di uso locale prima di eseguire i comandi di seguito risulta necessario rimuovere (o rendere un commento) le righe 91 e 93-99 che hanno la variabile DATABASES e DATABASES_URL per la production e "attivare" le righe 101-106 per il database locale
 
-Per popolare il DB è possibile usare uno dei due metodi:
-1. Usare il fixture presente e i seguenti comandi:
-    python manage.py migrate
-    python manage.py loaddata store/fixtures/seed.json
+Per popolare il DB:
 
-2. Usare lo script "populate_db.py" in management/commands tramite i comandi:
-    python manage.py migrate
-    python manage.py populate.db
+Usare lo script "populate_db.py" in management/commands tramite i comandi: <br>
+    python manage.py migrate <br>
+    python manage.py populate.db <br>
 
 python manage.py runserver

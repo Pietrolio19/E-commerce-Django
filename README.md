@@ -11,7 +11,7 @@ conda activate e-commerce-django <br>
 Spostarsi nella cartella del progetto <br>
 pip install -r requirements.txt <br>
 
-In caso di uso locale prima di eseguire i comandi di seguito risulta necessario rimuovere (o rendere un commento) le righe 91 e 93-99 che hanno la variabile DATABASES e DATABASES_URL per la production e "attivare" le righe 101-106 per il database locale
+In caso di uso locale prima di eseguire i comandi di seguito risulta necessario rimuovere (o rendere un commento) le righe 91 e 93-99 del file "PPM_project/settings.py" che hanno la variabile DATABASES e DATABASES_URL per la production e "attivare" le righe 101-106 dello stesso file per il database locale.
 
 Per popolare il DB:
 

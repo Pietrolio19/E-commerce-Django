@@ -1,0 +1,2472 @@
+[
+{
+  "model": "store.product",
+  "pk": 1,
+  "fields": {
+    "name": "Set di coltelli da cucina KM-635",
+    "price": "18.55",
+    "available": true,
+    "stock": 5,
+    "category": 1,
+    "description": "Il Set di coltelli da cucina KM-635 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 2,
+  "fields": {
+    "name": "Macchina da caffè VU-427",
+    "price": "17.09",
+    "available": true,
+    "stock": 36,
+    "category": 1,
+    "description": "Il Macchina da caffè VU-427 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 3,
+  "fields": {
+    "name": "Padella antiaderente OJ-827",
+    "price": "21.58",
+    "available": true,
+    "stock": 87,
+    "category": 1,
+    "description": "Il Padella antiaderente OJ-827 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 4,
+  "fields": {
+    "name": "Robot da cucina CM-357",
+    "price": "66.27",
+    "available": true,
+    "stock": 15,
+    "category": 1,
+    "description": "Il Robot da cucina CM-357 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 5,
+  "fields": {
+    "name": "Set di pentole FZ-771",
+    "price": "16.19",
+    "available": true,
+    "stock": 68,
+    "category": 1,
+    "description": "Il Set di pentole FZ-771 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 6,
+  "fields": {
+    "name": "Pentola a pressione WG-641",
+    "price": "40.24",
+    "available": true,
+    "stock": 3,
+    "category": 1,
+    "description": "Il Pentola a pressione WG-641 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 7,
+  "fields": {
+    "name": "Frullatore ad immersione TU-823",
+    "price": "38.35",
+    "available": true,
+    "stock": 73,
+    "category": 1,
+    "description": "Il Frullatore ad immersione TU-823 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 8,
+  "fields": {
+    "name": "Bilancia da cucina ZM-455",
+    "price": "158.46",
+    "available": true,
+    "stock": 88,
+    "category": 1,
+    "description": "Il Bilancia da cucina ZM-455 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 9,
+  "fields": {
+    "name": "Tostapane QK-611",
+    "price": "63.36",
+    "available": true,
+    "stock": 68,
+    "category": 1,
+    "description": "Il Tostapane QK-611 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 10,
+  "fields": {
+    "name": "Caraffa termica FA-241",
+    "price": "18.57",
+    "available": true,
+    "stock": 65,
+    "category": 1,
+    "description": "Il Caraffa termica FA-241 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 11,
+  "fields": {
+    "name": "Macchina del pane AA-417",
+    "price": "17.51",
+    "available": true,
+    "stock": 26,
+    "category": 1,
+    "description": "Il Macchina del pane AA-417 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 12,
+  "fields": {
+    "name": "Tagliere in bamboo JV-354",
+    "price": "16.99",
+    "available": true,
+    "stock": 77,
+    "category": 1,
+    "description": "Il Tagliere in bamboo JV-354 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 13,
+  "fields": {
+    "name": "Coltello da pane NZ-383",
+    "price": "11.09",
+    "available": true,
+    "stock": 58,
+    "category": 1,
+    "description": "Il Coltello da pane NZ-383 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 14,
+  "fields": {
+    "name": "Cuociriso elettrico XI-245",
+    "price": "70.90",
+    "available": true,
+    "stock": 7,
+    "category": 1,
+    "description": "Il Cuociriso elettrico XI-245 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 15,
+  "fields": {
+    "name": "Spremiagrumi NC-206",
+    "price": "84.05",
+    "available": true,
+    "stock": 13,
+    "category": 1,
+    "description": "Il Spremiagrumi NC-206 è un prodotto di alta qualità per casa e cucina.",
+    "related_category": [
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 16,
+  "fields": {
+    "name": "Orologio da polso FP-639",
+    "price": "294.75",
+    "available": true,
+    "stock": 83,
+    "category": 2,
+    "description": "Il Orologio da polso FP-639 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 17,
+  "fields": {
+    "name": "Borsa a tracolla PQ-102",
+    "price": "174.52",
+    "available": true,
+    "stock": 19,
+    "category": 2,
+    "description": "Il Borsa a tracolla PQ-102 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 18,
+  "fields": {
+    "name": "Cintura in pelle YV-632",
+    "price": "133.96",
+    "available": true,
+    "stock": 69,
+    "category": 2,
+    "description": "Il Cintura in pelle YV-632 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 19,
+  "fields": {
+    "name": "Occhiali da sole MC-318",
+    "price": "52.62",
+    "available": true,
+    "stock": 87,
+    "category": 2,
+    "description": "Il Occhiali da sole MC-318 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 20,
+  "fields": {
+    "name": "Portafoglio in pelle XJ-299",
+    "price": "159.60",
+    "available": true,
+    "stock": 100,
+    "category": 2,
+    "description": "Il Portafoglio in pelle XJ-299 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 21,
+  "fields": {
+    "name": "Foulard in seta VI-847",
+    "price": "150.89",
+    "available": true,
+    "stock": 82,
+    "category": 2,
+    "description": "Il Foulard in seta VI-847 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 22,
+  "fields": {
+    "name": "Zaino urbano ZF-820",
+    "price": "51.05",
+    "available": true,
+    "stock": 71,
+    "category": 2,
+    "description": "Il Zaino urbano ZF-820 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 23,
+  "fields": {
+    "name": "Cappello estivo MS-398",
+    "price": "68.49",
+    "available": true,
+    "stock": 87,
+    "category": 2,
+    "description": "Il Cappello estivo MS-398 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 24,
+  "fields": {
+    "name": "Bracciale in acciaio TZ-962",
+    "price": "207.31",
+    "available": true,
+    "stock": 94,
+    "category": 2,
+    "description": "Il Bracciale in acciaio TZ-962 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 25,
+  "fields": {
+    "name": "Collana con pendente EO-743",
+    "price": "280.06",
+    "available": true,
+    "stock": 43,
+    "category": 2,
+    "description": "Il Collana con pendente EO-743 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 26,
+  "fields": {
+    "name": "Orecchini a cerchio LN-215",
+    "price": "191.12",
+    "available": true,
+    "stock": 7,
+    "category": 2,
+    "description": "Il Orecchini a cerchio LN-215 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 27,
+  "fields": {
+    "name": "Guanti invernali SY-124",
+    "price": "154.61",
+    "available": true,
+    "stock": 79,
+    "category": 2,
+    "description": "Il Guanti invernali SY-124 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 28,
+  "fields": {
+    "name": "Cappotto elegante NO-324",
+    "price": "81.52",
+    "available": true,
+    "stock": 31,
+    "category": 2,
+    "description": "Il Cappotto elegante NO-324 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 29,
+  "fields": {
+    "name": "Sneaker casual OE-674",
+    "price": "123.23",
+    "available": true,
+    "stock": 69,
+    "category": 2,
+    "description": "Il Sneaker casual OE-674 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 30,
+  "fields": {
+    "name": "Calze tecniche UZ-436",
+    "price": "150.30",
+    "available": true,
+    "stock": 4,
+    "category": 2,
+    "description": "Il Calze tecniche UZ-436 è un prodotto di alta qualità per moda e accessori.",
+    "related_category": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 31,
+  "fields": {
+    "name": "Smartphone GX-974",
+    "price": "585.27",
+    "available": true,
+    "stock": 49,
+    "category": 3,
+    "description": "Il Smartphone GX-974 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 32,
+  "fields": {
+    "name": "Cuffie wireless CP-869",
+    "price": "458.34",
+    "available": true,
+    "stock": 27,
+    "category": 3,
+    "description": "Il Cuffie wireless CP-869 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 33,
+  "fields": {
+    "name": "Smartwatch YE-331",
+    "price": "971.63",
+    "available": true,
+    "stock": 64,
+    "category": 3,
+    "description": "Il Smartwatch YE-331 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 34,
+  "fields": {
+    "name": "Tablet RN-186",
+    "price": "1352.29",
+    "available": true,
+    "stock": 20,
+    "category": 3,
+    "description": "Il Tablet RN-186 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 35,
+  "fields": {
+    "name": "Portatile ultraleggero SC-740",
+    "price": "1517.40",
+    "available": true,
+    "stock": 28,
+    "category": 3,
+    "description": "Il Portatile ultraleggero SC-740 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 36,
+  "fields": {
+    "name": "Speaker Bluetooth IB-925",
+    "price": "1540.94",
+    "available": false,
+    "stock": 0,
+    "category": 3,
+    "description": "Il Speaker Bluetooth IB-925 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 37,
+  "fields": {
+    "name": "Hard disk esterno UJ-520",
+    "price": "640.92",
+    "available": true,
+    "stock": 14,
+    "category": 3,
+    "description": "Il Hard disk esterno UJ-520 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 38,
+  "fields": {
+    "name": "Action camera JG-722",
+    "price": "1903.29",
+    "available": true,
+    "stock": 56,
+    "category": 3,
+    "description": "Il Action camera JG-722 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 39,
+  "fields": {
+    "name": "Caricabatterie rapido WM-553",
+    "price": "718.50",
+    "available": true,
+    "stock": 89,
+    "category": 3,
+    "description": "Il Caricabatterie rapido WM-553 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 40,
+  "fields": {
+    "name": "Power bank JE-442",
+    "price": "1533.65",
+    "available": true,
+    "stock": 19,
+    "category": 3,
+    "description": "Il Power bank JE-442 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 41,
+  "fields": {
+    "name": "Televisore 4K TB-727",
+    "price": "1206.88",
+    "available": true,
+    "stock": 73,
+    "category": 3,
+    "description": "Il Televisore 4K TB-727 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 42,
+  "fields": {
+    "name": "Router Wi-Fi RJ-192",
+    "price": "676.97",
+    "available": true,
+    "stock": 5,
+    "category": 3,
+    "description": "Il Router Wi-Fi RJ-192 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 43,
+  "fields": {
+    "name": "Mouse wireless NK-836",
+    "price": "1199.16",
+    "available": false,
+    "stock": 0,
+    "category": 3,
+    "description": "Il Mouse wireless NK-836 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 44,
+  "fields": {
+    "name": "Tastiera meccanica YY-597",
+    "price": "743.91",
+    "available": true,
+    "stock": 11,
+    "category": 3,
+    "description": "Il Tastiera meccanica YY-597 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 45,
+  "fields": {
+    "name": "Webcam HD NG-575",
+    "price": "561.00",
+    "available": true,
+    "stock": 8,
+    "category": 3,
+    "description": "Il Webcam HD NG-575 è un prodotto di alta qualità per elettronica.",
+    "related_category": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 46,
+  "fields": {
+    "name": "Crema viso idratante JO-228",
+    "price": "11.80",
+    "available": true,
+    "stock": 34,
+    "category": 4,
+    "description": "Il Crema viso idratante JO-228 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 47,
+  "fields": {
+    "name": "Siero anti-age RO-494",
+    "price": "49.25",
+    "available": true,
+    "stock": 80,
+    "category": 4,
+    "description": "Il Siero anti-age RO-494 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 48,
+  "fields": {
+    "name": "Shampoo ristrutturante KJ-439",
+    "price": "8.99",
+    "available": true,
+    "stock": 7,
+    "category": 4,
+    "description": "Il Shampoo ristrutturante KJ-439 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 49,
+  "fields": {
+    "name": "Balsamo nutriente AV-581",
+    "price": "37.07",
+    "available": true,
+    "stock": 43,
+    "category": 4,
+    "description": "Il Balsamo nutriente AV-581 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 50,
+  "fields": {
+    "name": "Profumo Eau de Parfum NK-462",
+    "price": "30.32",
+    "available": true,
+    "stock": 10,
+    "category": 4,
+    "description": "Il Profumo Eau de Parfum NK-462 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 51,
+  "fields": {
+    "name": "Rossetto opaco WF-224",
+    "price": "31.13",
+    "available": true,
+    "stock": 51,
+    "category": 4,
+    "description": "Il Rossetto opaco WF-224 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 52,
+  "fields": {
+    "name": "Smalto unghie MO-552",
+    "price": "5.17",
+    "available": true,
+    "stock": 42,
+    "category": 4,
+    "description": "Il Smalto unghie MO-552 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 53,
+  "fields": {
+    "name": "Olio per capelli KF-207",
+    "price": "13.11",
+    "available": true,
+    "stock": 18,
+    "category": 4,
+    "description": "Il Olio per capelli KF-207 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 54,
+  "fields": {
+    "name": "Detergente viso TT-484",
+    "price": "2.06",
+    "available": true,
+    "stock": 84,
+    "category": 4,
+    "description": "Il Detergente viso TT-484 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 55,
+  "fields": {
+    "name": "Maschera viso ZP-868",
+    "price": "5.99",
+    "available": true,
+    "stock": 6,
+    "category": 4,
+    "description": "Il Maschera viso ZP-868 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 56,
+  "fields": {
+    "name": "Crema corpo WN-749",
+    "price": "31.21",
+    "available": true,
+    "stock": 15,
+    "category": 4,
+    "description": "Il Crema corpo WN-749 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 57,
+  "fields": {
+    "name": "Fondotinta liquido DO-529",
+    "price": "27.35",
+    "available": true,
+    "stock": 36,
+    "category": 4,
+    "description": "Il Fondotinta liquido DO-529 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 58,
+  "fields": {
+    "name": "Gel doccia HB-647",
+    "price": "6.52",
+    "available": true,
+    "stock": 80,
+    "category": 4,
+    "description": "Il Gel doccia HB-647 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 59,
+  "fields": {
+    "name": "Spazzola lisciante IU-338",
+    "price": "11.07",
+    "available": true,
+    "stock": 39,
+    "category": 4,
+    "description": "Il Spazzola lisciante IU-338 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 60,
+  "fields": {
+    "name": "Deodorante spray MY-532",
+    "price": "6.67",
+    "available": true,
+    "stock": 41,
+    "category": 4,
+    "description": "Il Deodorante spray MY-532 è un prodotto di alta qualità per bellezza e salute.",
+    "related_category": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 61,
+  "fields": {
+    "name": "Tappetino yoga XU-392",
+    "price": "36.20",
+    "available": true,
+    "stock": 37,
+    "category": 5,
+    "description": "Il Tappetino yoga XU-392 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 62,
+  "fields": {
+    "name": "Pallone da calcio AJ-869",
+    "price": "28.51",
+    "available": true,
+    "stock": 82,
+    "category": 5,
+    "description": "Il Pallone da calcio AJ-869 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 63,
+  "fields": {
+    "name": "Scarpe da corsa KW-371",
+    "price": "173.15",
+    "available": true,
+    "stock": 73,
+    "category": 5,
+    "description": "Il Scarpe da corsa KW-371 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 64,
+  "fields": {
+    "name": "Borsa palestra JE-853",
+    "price": "48.87",
+    "available": true,
+    "stock": 59,
+    "category": 5,
+    "description": "Il Borsa palestra JE-853 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 65,
+  "fields": {
+    "name": "Bicicletta da strada FT-218",
+    "price": "86.54",
+    "available": true,
+    "stock": 6,
+    "category": 5,
+    "description": "Il Bicicletta da strada FT-218 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 66,
+  "fields": {
+    "name": "Casco ciclismo AR-624",
+    "price": "15.87",
+    "available": true,
+    "stock": 17,
+    "category": 5,
+    "description": "Il Casco ciclismo AR-624 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 67,
+  "fields": {
+    "name": "Palla da basket FH-881",
+    "price": "61.20",
+    "available": true,
+    "stock": 14,
+    "category": 5,
+    "description": "Il Palla da basket FH-881 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 68,
+  "fields": {
+    "name": "Set pesi manubri LY-417",
+    "price": "67.56",
+    "available": true,
+    "stock": 49,
+    "category": 5,
+    "description": "Il Set pesi manubri LY-417 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 69,
+  "fields": {
+    "name": "Racchetta da tennis DB-696",
+    "price": "194.89",
+    "available": true,
+    "stock": 95,
+    "category": 5,
+    "description": "Il Racchetta da tennis DB-696 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 70,
+  "fields": {
+    "name": "Tenda da campeggio QV-617",
+    "price": "289.14",
+    "available": true,
+    "stock": 37,
+    "category": 5,
+    "description": "Il Tenda da campeggio QV-617 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 71,
+  "fields": {
+    "name": "Sacco da boxe GQ-812",
+    "price": "104.37",
+    "available": true,
+    "stock": 17,
+    "category": 5,
+    "description": "Il Sacco da boxe GQ-812 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 72,
+  "fields": {
+    "name": "Orologio sportivo SN-183",
+    "price": "145.40",
+    "available": true,
+    "stock": 97,
+    "category": 5,
+    "description": "Il Orologio sportivo SN-183 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 73,
+  "fields": {
+    "name": "Gilet termico ZY-169",
+    "price": "186.20",
+    "available": true,
+    "stock": 50,
+    "category": 5,
+    "description": "Il Gilet termico ZY-169 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 74,
+  "fields": {
+    "name": "Pattini a rotelle JX-430",
+    "price": "191.15",
+    "available": true,
+    "stock": 89,
+    "category": 5,
+    "description": "Il Pattini a rotelle JX-430 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 75,
+  "fields": {
+    "name": "Borraccia termica AW-298",
+    "price": "63.58",
+    "available": true,
+    "stock": 4,
+    "category": 5,
+    "description": "Il Borraccia termica AW-298 è un prodotto di alta qualità per sport e tempo libero.",
+    "related_category": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 76,
+  "fields": {
+    "name": "Puzzle 1000 pezzi NQ-952",
+    "price": "45.50",
+    "available": true,
+    "stock": 16,
+    "category": 6,
+    "description": "Il Puzzle 1000 pezzi NQ-952 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 77,
+  "fields": {
+    "name": "Costruzioni in legno GG-523",
+    "price": "35.94",
+    "available": true,
+    "stock": 78,
+    "category": 6,
+    "description": "Il Costruzioni in legno GG-523 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 78,
+  "fields": {
+    "name": "Bambola fashion DF-155",
+    "price": "45.78",
+    "available": true,
+    "stock": 2,
+    "category": 6,
+    "description": "Il Bambola fashion DF-155 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 79,
+  "fields": {
+    "name": "Macchinina RC RL-633",
+    "price": "23.28",
+    "available": true,
+    "stock": 22,
+    "category": 6,
+    "description": "Il Macchinina RC RL-633 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 80,
+  "fields": {
+    "name": "Peluche orsetto EP-252",
+    "price": "14.22",
+    "available": true,
+    "stock": 98,
+    "category": 6,
+    "description": "Il Peluche orsetto EP-252 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 81,
+  "fields": {
+    "name": "Kit pittura UJ-565",
+    "price": "37.65",
+    "available": true,
+    "stock": 56,
+    "category": 6,
+    "description": "Il Kit pittura UJ-565 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 82,
+  "fields": {
+    "name": "Gioco educativo NU-205",
+    "price": "29.37",
+    "available": true,
+    "stock": 70,
+    "category": 6,
+    "description": "Il Gioco educativo NU-205 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 83,
+  "fields": {
+    "name": "Treno in legno JR-232",
+    "price": "21.22",
+    "available": true,
+    "stock": 39,
+    "category": 6,
+    "description": "Il Treno in legno JR-232 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 84,
+  "fields": {
+    "name": "Action figure SM-261",
+    "price": "29.24",
+    "available": true,
+    "stock": 45,
+    "category": 6,
+    "description": "Il Action figure SM-261 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 85,
+  "fields": {
+    "name": "Set magia XR-980",
+    "price": "46.33",
+    "available": true,
+    "stock": 19,
+    "category": 6,
+    "description": "Il Set magia XR-980 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 86,
+  "fields": {
+    "name": "Gioco memory OZ-721",
+    "price": "36.27",
+    "available": true,
+    "stock": 37,
+    "category": 6,
+    "description": "Il Gioco memory OZ-721 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 87,
+  "fields": {
+    "name": "Scacchiera magnetica RV-481",
+    "price": "64.76",
+    "available": true,
+    "stock": 100,
+    "category": 6,
+    "description": "Il Scacchiera magnetica RV-481 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 88,
+  "fields": {
+    "name": "Tappeto gioco TV-831",
+    "price": "11.79",
+    "available": true,
+    "stock": 71,
+    "category": 6,
+    "description": "Il Tappeto gioco TV-831 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 89,
+  "fields": {
+    "name": "Kit esperimenti NT-279",
+    "price": "19.35",
+    "available": true,
+    "stock": 77,
+    "category": 6,
+    "description": "Il Kit esperimenti NT-279 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 90,
+  "fields": {
+    "name": "Puzzle 3D SF-286",
+    "price": "33.74",
+    "available": true,
+    "stock": 3,
+    "category": 6,
+    "description": "Il Puzzle 3D SF-286 è un prodotto di alta qualità per giocattoli e bambini.",
+    "related_category": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 91,
+  "fields": {
+    "name": "Romanzo giallo CD-800",
+    "price": "14.79",
+    "available": true,
+    "stock": 60,
+    "category": 7,
+    "description": "Il Romanzo giallo CD-800 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 92,
+  "fields": {
+    "name": "Manuale fotografico WF-519",
+    "price": "28.23",
+    "available": true,
+    "stock": 88,
+    "category": 7,
+    "description": "Il Manuale fotografico WF-519 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 93,
+  "fields": {
+    "name": "Abbonamento audiobook VL-158",
+    "price": "24.27",
+    "available": true,
+    "stock": 1,
+    "category": 7,
+    "description": "Il Abbonamento audiobook VL-158 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 94,
+  "fields": {
+    "name": "Libro di cucina italiana ZT-301",
+    "price": "9.70",
+    "available": true,
+    "stock": 84,
+    "category": 7,
+    "description": "Il Libro di cucina italiana ZT-301 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 95,
+  "fields": {
+    "name": "Fumetto Marvel KF-122",
+    "price": "19.80",
+    "available": true,
+    "stock": 10,
+    "category": 7,
+    "description": "Il Fumetto Marvel KF-122 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 96,
+  "fields": {
+    "name": "Enciclopedia generale EA-524",
+    "price": "25.34",
+    "available": true,
+    "stock": 75,
+    "category": 7,
+    "description": "Il Enciclopedia generale EA-524 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 97,
+  "fields": {
+    "name": "Biografia celebre GH-255",
+    "price": "27.24",
+    "available": true,
+    "stock": 42,
+    "category": 7,
+    "description": "Il Biografia celebre GH-255 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 98,
+  "fields": {
+    "name": "Album musicale HH-925",
+    "price": "16.63",
+    "available": true,
+    "stock": 81,
+    "category": 7,
+    "description": "Il Album musicale HH-925 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 99,
+  "fields": {
+    "name": "DVD film cult DB-279",
+    "price": "28.89",
+    "available": true,
+    "stock": 43,
+    "category": 7,
+    "description": "Il DVD film cult DB-279 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 100,
+  "fields": {
+    "name": "Libro di poesie ZY-729",
+    "price": "23.48",
+    "available": true,
+    "stock": 43,
+    "category": 7,
+    "description": "Il Libro di poesie ZY-729 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 101,
+  "fields": {
+    "name": "Guida turistica Europa YW-884",
+    "price": "27.19",
+    "available": true,
+    "stock": 62,
+    "category": 7,
+    "description": "Il Guida turistica Europa YW-884 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 102,
+  "fields": {
+    "name": "Ebook thriller CE-336",
+    "price": "28.24",
+    "available": true,
+    "stock": 44,
+    "category": 7,
+    "description": "Il Ebook thriller CE-336 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 103,
+  "fields": {
+    "name": "Rivista moda SA-725",
+    "price": "19.63",
+    "available": true,
+    "stock": 32,
+    "category": 7,
+    "description": "Il Rivista moda SA-725 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 104,
+  "fields": {
+    "name": "CD di musica classica XE-730",
+    "price": "8.57",
+    "available": true,
+    "stock": 4,
+    "category": 7,
+    "description": "Il CD di musica classica XE-730 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 105,
+  "fields": {
+    "name": "Libro per bambini FG-635",
+    "price": "26.67",
+    "available": true,
+    "stock": 81,
+    "category": 7,
+    "description": "Il Libro per bambini FG-635 è un prodotto di alta qualità per libri e media.",
+    "related_category": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 106,
+  "fields": {
+    "name": "Scheda video RTX 4070 FX-706",
+    "price": "243.80",
+    "available": true,
+    "stock": 10,
+    "category": 8,
+    "description": "Il Scheda video RTX 4070 FX-706 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 107,
+  "fields": {
+    "name": "Processore Ryzen 5 XV-335",
+    "price": "350.47",
+    "available": true,
+    "stock": 40,
+    "category": 8,
+    "description": "Il Processore Ryzen 5 XV-335 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 108,
+  "fields": {
+    "name": "SSD NVMe 1TB DR-368",
+    "price": "392.43",
+    "available": true,
+    "stock": 58,
+    "category": 8,
+    "description": "Il SSD NVMe 1TB DR-368 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 109,
+  "fields": {
+    "name": "RAM 16GB DDR4 KL-409",
+    "price": "2594.06",
+    "available": true,
+    "stock": 54,
+    "category": 8,
+    "description": "Il RAM 16GB DDR4 KL-409 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 110,
+  "fields": {
+    "name": "Monitor 27\" 144Hz II-279",
+    "price": "1221.29",
+    "available": true,
+    "stock": 27,
+    "category": 8,
+    "description": "Il Monitor 27\" 144Hz II-279 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 111,
+  "fields": {
+    "name": "Alimentatore 650W VY-366",
+    "price": "77.51",
+    "available": true,
+    "stock": 95,
+    "category": 8,
+    "description": "Il Alimentatore 650W VY-366 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 112,
+  "fields": {
+    "name": "Case ATX JV-896",
+    "price": "374.47",
+    "available": true,
+    "stock": 16,
+    "category": 8,
+    "description": "Il Case ATX JV-896 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 113,
+  "fields": {
+    "name": "Mouse gaming KW-921",
+    "price": "202.46",
+    "available": true,
+    "stock": 59,
+    "category": 8,
+    "description": "Il Mouse gaming KW-921 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 114,
+  "fields": {
+    "name": "Tastiera meccanica YJ-673",
+    "price": "64.68",
+    "available": true,
+    "stock": 12,
+    "category": 8,
+    "description": "Il Tastiera meccanica YJ-673 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 115,
+  "fields": {
+    "name": "Dissipatore CPU OJ-167",
+    "price": "487.99",
+    "available": true,
+    "stock": 98,
+    "category": 8,
+    "description": "Il Dissipatore CPU OJ-167 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 116,
+  "fields": {
+    "name": "Scheda madre B550 JN-840",
+    "price": "88.90",
+    "available": true,
+    "stock": 24,
+    "category": 8,
+    "description": "Il Scheda madre B550 JN-840 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 117,
+  "fields": {
+    "name": "Cuffie gaming BB-602",
+    "price": "130.66",
+    "available": true,
+    "stock": 46,
+    "category": 8,
+    "description": "Il Cuffie gaming BB-602 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 118,
+  "fields": {
+    "name": "Webcam 1080p HT-299",
+    "price": "90.95",
+    "available": true,
+    "stock": 7,
+    "category": 8,
+    "description": "Il Webcam 1080p HT-299 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 119,
+  "fields": {
+    "name": "Hub USB-C DG-712",
+    "price": "30.56",
+    "available": true,
+    "stock": 50,
+    "category": 8,
+    "description": "Il Hub USB-C DG-712 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 120,
+  "fields": {
+    "name": "Scheda audio FI-450",
+    "price": "31.23",
+    "available": true,
+    "stock": 71,
+    "category": 8,
+    "description": "Il Scheda audio FI-450 è un prodotto di alta qualità per hardware e informatica.",
+    "related_category": [
+      3,
+      10
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 121,
+  "fields": {
+    "name": "Set attrezzi giardinaggio PV-720",
+    "price": "47.02",
+    "available": true,
+    "stock": 51,
+    "category": 9,
+    "description": "Il Set attrezzi giardinaggio PV-720 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 122,
+  "fields": {
+    "name": "Tagliaerba elettrico SA-748",
+    "price": "219.20",
+    "available": true,
+    "stock": 89,
+    "category": 9,
+    "description": "Il Tagliaerba elettrico SA-748 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 123,
+  "fields": {
+    "name": "Serra da giardino JI-650",
+    "price": "107.10",
+    "available": true,
+    "stock": 65,
+    "category": 9,
+    "description": "Il Serra da giardino JI-650 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 124,
+  "fields": {
+    "name": "Irrigatore automatico MI-196",
+    "price": "297.96",
+    "available": true,
+    "stock": 84,
+    "category": 9,
+    "description": "Il Irrigatore automatico MI-196 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 125,
+  "fields": {
+    "name": "Fertilizzante organico YR-499",
+    "price": "79.21",
+    "available": true,
+    "stock": 24,
+    "category": 9,
+    "description": "Il Fertilizzante organico YR-499 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 126,
+  "fields": {
+    "name": "Guanti da giardinaggio OE-907",
+    "price": "57.05",
+    "available": true,
+    "stock": 24,
+    "category": 9,
+    "description": "Il Guanti da giardinaggio OE-907 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 127,
+  "fields": {
+    "name": "Concime universale XB-463",
+    "price": "38.88",
+    "available": true,
+    "stock": 56,
+    "category": 9,
+    "description": "Il Concime universale XB-463 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 128,
+  "fields": {
+    "name": "Terriccio universale EQ-251",
+    "price": "99.21",
+    "available": true,
+    "stock": 29,
+    "category": 9,
+    "description": "Il Terriccio universale EQ-251 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 129,
+  "fields": {
+    "name": "Tagliasiepi TZ-876",
+    "price": "98.50",
+    "available": true,
+    "stock": 55,
+    "category": 9,
+    "description": "Il Tagliasiepi TZ-876 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 130,
+  "fields": {
+    "name": "Troncarami SQ-390",
+    "price": "106.32",
+    "available": true,
+    "stock": 70,
+    "category": 9,
+    "description": "Il Troncarami SQ-390 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 131,
+  "fields": {
+    "name": "Vaso in terracotta PG-821",
+    "price": "22.46",
+    "available": true,
+    "stock": 55,
+    "category": 9,
+    "description": "Il Vaso in terracotta PG-821 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 132,
+  "fields": {
+    "name": "Tubo flessibile 20m XD-608",
+    "price": "39.28",
+    "available": true,
+    "stock": 25,
+    "category": 9,
+    "description": "Il Tubo flessibile 20m XD-608 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 133,
+  "fields": {
+    "name": "Sedia da esterno UW-959",
+    "price": "27.91",
+    "available": true,
+    "stock": 73,
+    "category": 9,
+    "description": "Il Sedia da esterno UW-959 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 134,
+  "fields": {
+    "name": "Amaca da giardino XV-265",
+    "price": "85.25",
+    "available": true,
+    "stock": 17,
+    "category": 9,
+    "description": "Il Amaca da giardino XV-265 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 135,
+  "fields": {
+    "name": "Barbecue a gas RU-856",
+    "price": "266.43",
+    "available": true,
+    "stock": 98,
+    "category": 9,
+    "description": "Il Barbecue a gas RU-856 è un prodotto di alta qualità per giardinaggio e outdoor.",
+    "related_category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 136,
+  "fields": {
+    "name": "Ganasce freno anteriori VR-329",
+    "price": "35.35",
+    "available": true,
+    "stock": 66,
+    "category": 10,
+    "description": "Il Ganasce freno anteriori VR-329 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 137,
+  "fields": {
+    "name": "Filtro olio TR-809",
+    "price": "39.79",
+    "available": true,
+    "stock": 89,
+    "category": 10,
+    "description": "Il Filtro olio TR-809 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 138,
+  "fields": {
+    "name": "Coprisedile in ecopelle YS-117",
+    "price": "11.12",
+    "available": true,
+    "stock": 96,
+    "category": 10,
+    "description": "Il Coprisedile in ecopelle YS-117 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 139,
+  "fields": {
+    "name": "Navigatore GPS IG-417",
+    "price": "49.38",
+    "available": true,
+    "stock": 46,
+    "category": 10,
+    "description": "Il Navigatore GPS IG-417 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 140,
+  "fields": {
+    "name": "Casco moto integrale UG-468",
+    "price": "955.19",
+    "available": true,
+    "stock": 16,
+    "category": 10,
+    "description": "Il Casco moto integrale UG-468 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 141,
+  "fields": {
+    "name": "Giacca moto IX-329",
+    "price": "995.80",
+    "available": true,
+    "stock": 20,
+    "category": 10,
+    "description": "Il Giacca moto IX-329 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 142,
+  "fields": {
+    "name": "Kit pulizia auto XK-256",
+    "price": "181.81",
+    "available": true,
+    "stock": 58,
+    "category": 10,
+    "description": "Il Kit pulizia auto XK-256 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 143,
+  "fields": {
+    "name": "Catene da neve AK-443",
+    "price": "154.45",
+    "available": true,
+    "stock": 63,
+    "category": 10,
+    "description": "Il Catene da neve AK-443 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 144,
+  "fields": {
+    "name": "Copriruota di scorta OT-156",
+    "price": "266.58",
+    "available": true,
+    "stock": 31,
+    "category": 10,
+    "description": "Il Copriruota di scorta OT-156 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 145,
+  "fields": {
+    "name": "Borsone da viaggio QP-359",
+    "price": "132.27",
+    "available": true,
+    "stock": 74,
+    "category": 10,
+    "description": "Il Borsone da viaggio QP-359 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 146,
+  "fields": {
+    "name": "Dash Cam XE-276",
+    "price": "83.96",
+    "available": true,
+    "stock": 6,
+    "category": 10,
+    "description": "Il Dash Cam XE-276 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 147,
+  "fields": {
+    "name": "Olio motore sintetico EH-474",
+    "price": "145.08",
+    "available": true,
+    "stock": 13,
+    "category": 10,
+    "description": "Il Olio motore sintetico EH-474 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 148,
+  "fields": {
+    "name": "Parabrezza universale HU-636",
+    "price": "90.38",
+    "available": true,
+    "stock": 40,
+    "category": 10,
+    "description": "Il Parabrezza universale HU-636 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 149,
+  "fields": {
+    "name": "Supporto smartphone auto SG-208",
+    "price": "65.41",
+    "available": true,
+    "stock": 72,
+    "category": 10,
+    "description": "Il Supporto smartphone auto SG-208 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 150,
+  "fields": {
+    "name": "Lampadine LED LB-913",
+    "price": "10.19",
+    "available": true,
+    "stock": 100,
+    "category": 10,
+    "description": "Il Lampadine LED LB-913 è un prodotto di alta qualità per auto e moto.",
+    "related_category": [
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "store.category",
+  "pk": 1,
+  "fields": {
+    "name": "Casa e Cucina"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 2,
+  "fields": {
+    "name": "Moda e Accessori"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 3,
+  "fields": {
+    "name": "Elettronica"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 4,
+  "fields": {
+    "name": "Bellezza e Salute"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 5,
+  "fields": {
+    "name": "Sport e Tempo Libero"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 6,
+  "fields": {
+    "name": "Giocattoli e Bambini"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 7,
+  "fields": {
+    "name": "Libri e Media"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 8,
+  "fields": {
+    "name": "Hardware e Informatica"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 9,
+  "fields": {
+    "name": "Giardinaggio e Outdoor"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 10,
+  "fields": {
+    "name": "Auto e Moto"
+  }
+}
+]

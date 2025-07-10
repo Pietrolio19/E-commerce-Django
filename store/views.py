@@ -118,6 +118,8 @@ def payment(request):
     items = current_order.items.all()
     for o in items:
         o.product.stock -= o.quantity
+        if o.product.stock is 0:
+            o.product.available = False
         o.product.save()
     current_order.save()
     return render(request, "store/payment.html")

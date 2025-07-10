@@ -4,6 +4,15 @@
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
+
+         <h3>Articoli dell'Ordine</h3>
+        {{ items_formset.management_form }}
+        {% for subform in items_formset %}
+            <div class="orderitem-form">
+                {{ subform.as_p }}
+            </div>
+        {% endfor %}
+
         <button class="btn-style delete-update" type="submit">Conferma la modifica</button>
     </form>
     <a href="{% url 'accounts:manager' %}" class="btn-style">Annulla</a>

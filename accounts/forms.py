@@ -1,5 +1,15 @@
 from django import forms
 from django.contrib.auth import get_user_model
+from django.forms import inlineformset_factory
+from store.models import Order, OrderItem
+
+OrderItemFormSet = inlineformset_factory(
+    Order,
+    OrderItem,
+    fields=['product', 'quantity'],
+    extra=0,
+    can_delete=True
+)
 
 User = get_user_model()
 

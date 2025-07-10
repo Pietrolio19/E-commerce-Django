@@ -33,7 +33,7 @@
                     <h3 class="price">{{ product.price }} &#8364;</h3>
                     <h5 class="product-desc">{{ product.description }}</h5>
                     {% if product.available == 1 %}
-                        {% if product.stock < 5  %}
+                        {% if product.stock > 0 and product.stock <= 5 %}
                             <h4 class="product-stock">Rimangono solo: {{ product.stock }} pezzi</h4>
                         {% endif %}
                     {% else %}

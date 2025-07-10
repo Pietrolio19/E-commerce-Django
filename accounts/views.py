@@ -5,8 +5,8 @@ from .mixins import *
 from django.urls import reverse_lazy
 from django.contrib.auth import login
 from django.views.generic import CreateView, DetailView, DeleteView, UpdateView
-from store.models import Order, Category, Product
-from .forms import SignUpForm
+from store.models import Order, Category, Product, OrderItem
+from .forms import SignUpForm, OrderItemFormSet
 from .models import CustomUser
 
 # Create your views here.
@@ -118,3 +118,22 @@ class OrderUpdateView(LoginRequiredMixin, StoreManagerMixin, UpdateView):
     fields = ['user', 'status', 'completed_at', 'payment_method', 'shipping_address']
     template_name = 'accounts/order/update_order_confirmation.html'
     success_url = reverse_lazy('accounts:manager')
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        if self.request.POST:
+            context['items_formset'] = OrderItemFormSet(self.request.POST, instance=self.object)
+        else:
+            context['items_formset'] = OrderItemFormSet(instance=self.object)
+        return context
+
+    def form_valid(self, form):
+        context = self.get_context_data()
+        items_formset = context['items_formset']
+        if items_formset.is_valid():
+            self.object = form.save()
+            items_formset.instance = self.object
+            items_formset.save()
+            return super().form_valid(form)
+        else:
+            return self.form_invalid(form)

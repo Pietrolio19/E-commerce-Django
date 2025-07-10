@@ -11,11 +11,12 @@ conda activate e-commerce-django <br>
 Spostarsi nella cartella del progetto <br>
 pip install -r requirements.txt <br>
 
-In caso di uso locale prima di eseguire i comandi di seguito risulta necessario rimuovere (o rendere un commento) le righe 91 e 93-99 del file "PPM_project/settings.py" che hanno la variabile DATABASES e DATABASES_URL per la production e "attivare" le righe 101-106 dello stesso file per il database locale.
+<h3>In caso di uso locale eseguire la pull del progetto dal branch local</h3>
+Prima di eseguire i comandi di seguito risulta necessario generare una SECRET_KEY casuale tramite:
+python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+Mettere la SECRET_KEY nel file .env-example
 
-Per popolare il DB:
-
-Usare lo script "populate_db.py" in management/commands tramite i comandi: <br>
+Per popolare il DB usare lo script "populate_db.py" in management/commands tramite i comandi: <br>
     python manage.py migrate <br>
     python manage.py populate.db <br>
 

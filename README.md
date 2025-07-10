@@ -5,13 +5,13 @@ Il lato manager è accessibile solo dagli "store_manager" che presentano nel mod
 
 In caso si voglia testare il lato user è possibile fare una sign up inventando un account per l'utente base e per il manager (il campo is_store_manager è modificabile dal form).
 
+<h3>In caso di uso locale eseguire la pull del progetto dal branch local</h3>
 Creare un ambiente conda tramite Anaconda Prompt: <br>
 conda create -n e-commerce-django python=3.11 <br>
 conda activate e-commerce-django <br>
 Spostarsi nella cartella del progetto <br>
 pip install -r requirements.txt <br>
 
-<h3>In caso di uso locale eseguire la pull del progetto dal branch local</h3>
 Prima di eseguire i comandi di seguito risulta necessario generare una SECRET_KEY casuale tramite:
 python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
 Mettere la SECRET_KEY nel file .env-example
